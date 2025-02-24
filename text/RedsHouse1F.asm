@@ -1,12 +1,12 @@
 _RedsHouse1FMomWakeUpText::
-	text "MOM: Right."
-	line "All boys leave"
-	cont "home some day."
-	cont "It said so on TV."
+	text "·𐑥𐑪𐑥: 𐑮𐑲𐑑."
+	line "𐑷𐑤 𐑚𐑶𐑟 𐑤𐑰𐑝 𐑣𐑴𐑥"
+	cont "𐑕𐑳𐑥 𐑛𐑱. 𐑦𐑑 𐑕𐑧𐑛 𐑕𐑴"
+        cont "𐑪𐑯 𐑑𐑰𐑝𐑰."
 
-	para "PROF.OAK, next"
-	line "door, is looking"
-	cont "for you."
+	para "·𐑐𐑮𐑪𐑓.𐑴𐑒, 𐑯𐑧𐑒𐑕𐑑"
+        line "𐑛𐑹, 𐑦𐑟 𐑤𐑫𐑒𐑦𐑙"
+        cont "𐑓 𐑿."
 	done
 
 _RedsHouse1FMomYouShouldRestText::
