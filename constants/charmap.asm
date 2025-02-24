@@ -48,7 +48,7 @@
 	charmap "’",         $71 ; closing single quote
 	charmap "“",         $72 ; opening quote
 	charmap "”",         $73 ; closing quote
-	charmap "·",         $74 ; middle dot, unused
+	;; charmap "·",         $74 ; middle dot, unused
 	charmap "…",         $75 ; ellipsis
 	charmap "ぁ",         $76 ; hiragana small a, unused
 	charmap "ぇ",         $77 ; hiragana small e, unused
@@ -384,3 +384,55 @@
 	charmap "７", $fd
 	charmap "８", $fe
 	charmap "９", $ff
+
+;; Shavian letters
+        charmap "·", $ae        ; namer dot
+        charmap "∘", $af        ; accroring
+        charmap "𐑐", $b0
+        charmap "𐑑", $b1
+        charmap "𐑒", $b2
+        charmap "𐑓", $b3
+        charmap "𐑔", $b4
+        charmap "𐑕", $b5
+        charmap "𐑖", $b6
+        charmap "𐑗", $b7
+        charmap "𐑘", $b8
+        charmap "𐑙", $b9
+        charmap "𐑚", $ba
+        charmap "𐑛", $bb
+        charmap "𐑜", $bc
+        charmap "𐑝", $bd
+        charmap "𐑞", $be
+        charmap "𐑟", $bf
+        charmap "𐑠", $c0
+        charmap "𐑡", $c1
+        charmap "𐑢", $c2
+        charmap "𐑣", $c3
+        charmap "𐑤", $c4
+        charmap "𐑥", $c5
+        charmap "𐑦", $c6
+        charmap "𐑧", $c7
+        charmap "𐑨", $c8
+        charmap "𐑩", $c9
+        charmap "𐑪", $ca
+        charmap "𐑫", $cb
+        charmap "𐑬", $cc
+        charmap "𐑭", $cd
+        charmap "𐑮", $ce
+        charmap "𐑯", $cf
+        charmap "𐑰", $d0
+        charmap "𐑱", $d1
+        charmap "𐑲", $d2
+        charmap "𐑳", $d3
+        charmap "𐑴", $d4
+        charmap "𐑵", $d5
+        charmap "𐑶", $d6
+        charmap "𐑷", $d7
+        charmap "𐑸", $d8
+        charmap "𐑹", $d9
+        charmap "𐑺", $da
+        charmap "𐑻", $db
+        charmap "𐑼", $dc
+        charmap "𐑽", $dd
+        charmap "𐑾", $de
+        charmap "𐑿", $df
