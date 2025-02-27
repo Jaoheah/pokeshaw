@@ -590,8 +590,8 @@ ShowPokedexDataInternal:
 	ret
 
 HeightWeightText:
-	db   "HT  ?′??″"
-	next "WT   ???lb@"
+	db   "𐑣𐑑  ?′??″"
+	next "𐑢𐑑   ???lb@"
 
 ; XXX does anything point to this?
 PokeText:
