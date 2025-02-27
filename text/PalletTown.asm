@@ -27,13 +27,13 @@ _PalletTownGirlText::
 	done
 
 _PalletTownFisherText::
-	text "Technology is"
-	line "incredible!"
+	text "𐑑𐑧𐑒𐑯𐑪𐑤𐑩𐑡𐑦 𐑦𐑟"
+	line "𐑦𐑯𐑒𐑮𐑧𐑛𐑩𐑚𐑩𐑤!"
 
-	para "You can now store"
-	line "and recall items"
-	cont "and #MON as"
-	cont "data via PC!"
+	para "𐑿 𐑒𐑨𐑯 𐑯𐑬 𐑕𐑑𐑹"
+	line "𐑯 𐑮𐑦𐑒𐑷𐑤 𐑲𐑑𐑩𐑥𐑟"
+	cont "𐑯 #𐑥𐑪𐑯 𐑨𐑟"
+	cont "𐑛𐑱𐑑𐑩 𐑝𐑲𐑩 𐑐𐑰𐑕𐑰!"
 	done
 
 _PalletTownOaksLabSignText::
