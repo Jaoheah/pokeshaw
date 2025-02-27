@@ -1,3 +1,7 @@
+# Shavian transilteration
+
+This is a WIP fork of the [disassembly of Pokémon Red/Blue](https://github.com/pret/pokered) in order to make a transliteration to the [Shavian alphabet](https://www.shavian.info/).
+
 # Pokémon Red and Blue [![Build Status][ci-badge]][ci]
 
 This is a disassembly of Pokémon Red and Blue.
