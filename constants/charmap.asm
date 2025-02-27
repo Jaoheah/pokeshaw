@@ -386,8 +386,8 @@
 	charmap "９", $ff
 
 ;; Shavian letters
-        charmap "·", $c0        ; namer dot
-        charmap "∘", $c1        ; accroring
+        charmap "·", $e9        ; namer dot
+        charmap "∘", $e5        ; accroring
         charmap "𐑐", $80
         charmap "𐑑", $81
         charmap "𐑒", $82
@@ -444,16 +444,14 @@
         charmap "𐑦𐑖", $b9
         charmap "𐑦𐑟", $ba
         charmap "𐑦𐑯", $bb
-        charmap "𐑖𐑰", $bc
-        charmap "𐑯𐑬", $bd
-        charmap "𐑩𐑯", $be
-        charmap "𐑾𐑯", $bf
+        charmap "𐑩𐑯", $bc
+        charmap "𐑾𐑯", $bd
+        charmap "𐑩𐑤", $be
+        charmap "𐑾c", $bf
 
         charmap "<𐑐𐑒>", $e1
         charmap "<𐑥𐑯>", $e2
 
-        charmap "𐑣𐑰", $e4
-        charmap "𐑥𐑰", $e5
-        charmap "𐑪𐑯", $e9
-        charmap "𐑨𐑑", $ea
-        charmap "𐑢𐑰", $eb
+        charmap "𐑦𐑙", $e4
+        charmap "𐑩𐑛", $ea
+        charmap "𐑯𐑑", $eb
