@@ -4,10 +4,7 @@ import latin2shaw
 import os
 import re
 import sys
-
-TEXT_RE = re.compile(r'^[\t ]*(?:text|next|page) "([^"]*)" *$')
-MAX_LINE_LENGTH = 17
-SINGLE_CHARACTER_RE = re.compile(r'𐑦𐑑|𐑦𐑓|𐑦𐑕|𐑦𐑖|𐑦𐑟|𐑦𐑯|𐑩𐑯|𐑾𐑯|𐑩𐑤|𐑾c|𐑦𐑙|𐑩𐑑|𐑯𐑑|.')
+import pokemon
 
 REPLACEMENTS = {
     "RHYDON": "𐑮𐑲𐑛𐑪𐑯",
@@ -163,10 +160,6 @@ REPLACEMENTS = {
     "VICTREEBEL": "𐑝𐑦𐑒𐑑𐑮𐑦𐑚𐑧𐑤",
 }
 
-def word_length(word):
-    # Count the known ligatures as a single character
-    return sum(1 for _ in SINGLE_CHARACTER_RE.finditer(word))
-
 def word_wrap(text):
     parts = []
     length = 0
@@ -180,9 +173,9 @@ def word_wrap(text):
             if bad_word in REPLACEMENTS:
                 word = REPLACEMENTS[bad_word] + word[marker_pos + 1:]
 
-        wl = word_length(word)
+        wl = pokemon.word_length(word)
 
-        if length + wl + 1 > MAX_LINE_LENGTH:
+        if length + wl + 1 > pokemon.MAX_LINE_LENGTH:
             yield " ".join(parts)
             parts.clear()
             length = 0
@@ -220,7 +213,7 @@ parts = []
 for line in sys.stdin:
     line = line.rstrip()
 
-    md = TEXT_RE.match(line)
+    md = pokemon.TEXT_RE.match(line)
 
     if in_text:
         if md is None:
