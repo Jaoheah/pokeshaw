@@ -1249,13 +1249,12 @@ _StarmieDexEntry::
 	dex
 
 _BulbasaurDexEntry::
-	text "A strange seed was"
-	next "planted on its"
-	next "back at birth."
+	text "𐑩 𐑕𐑑𐑮𐑱𐑯𐑡 𐑕𐑰𐑛 𐑢𐑪𐑟"
+	next "𐑐𐑤𐑭𐑯𐑑𐑩𐑛 𐑪𐑯 𐑦𐑑𐑕 𐑚𐑨𐑒"
+	next "𐑨𐑑 𐑚𐑻𐑔. 𐑞 𐑐𐑤𐑭𐑯𐑑"
 
-	page "The plant sprouts"
-	next "and grows with"
-	next "this #MON"
+	page "𐑕𐑐𐑮𐑬𐑑𐑕 𐑯 𐑜𐑮𐑴𐑟"
+	next "𐑢𐑦𐑞 𐑞𐑦𐑕 #𐑥𐑪𐑯"
 	dex
 
 _VenusaurDexEntry::
@@ -1399,23 +1398,21 @@ _MagnemiteDexEntry::
 	dex
 
 _CharmanderDexEntry::
-	text "Obviously prefers"
-	next "hot places. When"
-	next "it rains, steam"
+	text "𐑪𐑚𐑝𐑾𐑕𐑤𐑦 𐑐𐑮𐑦𐑓𐑻𐑟"
+	next "𐑣𐑪𐑑 𐑐𐑤𐑱𐑕𐑩𐑟. 𐑢𐑧𐑯"
+	next "𐑦𐑑 𐑮𐑱𐑯𐑟, 𐑕𐑑𐑰𐑥 𐑦𐑟"
 
-	page "is said to spout"
-	next "from the tip of"
-	next "its tail"
+	page "𐑕𐑧𐑛 𐑑 𐑕𐑐𐑬𐑑 𐑓𐑮𐑪𐑥"
+	next "𐑞 𐑑𐑦𐑐 𐑝 𐑦𐑑𐑕 𐑑𐑱𐑤"
 	dex
 
 _SquirtleDexEntry::
-	text "After birth, its"
-	next "back swells and"
-	next "hardens into a"
+	text "𐑭𐑓𐑑𐑼 𐑚𐑻𐑔, 𐑦𐑑𐑕 𐑚𐑨𐑒"
+	next "𐑕𐑢𐑧𐑤𐑟 𐑯 𐑣𐑸𐑛𐑩𐑯𐑟"
+	next "𐑦𐑯𐑑𐑵 𐑩 𐑖𐑧𐑤."
 
-	page "shell. Powerfully"
-	next "sprays foam from"
-	next "its mouth"
+	page "𐑐𐑬𐑼𐑓𐑩𐑤𐑦 𐑕𐑐𐑮𐑱𐑟 𐑓𐑴𐑥"
+	next "𐑓𐑮𐑪𐑥 𐑦𐑑𐑕 𐑥𐑬𐑔"
 	dex
 
 _CharmeleonDexEntry::
