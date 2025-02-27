@@ -42,9 +42,9 @@ _PalletTownOaksLabSignText::
 	done
 
 _PalletTownSignText::
-	text "PALLET TOWN"
-	line "Shades of your"
-	cont "journey await!"
+	text "·𐑐𐑨𐑤𐑩𐑑 𐑑𐑬𐑯"
+	line "𐑖𐑱𐑛𐑟 𐑝 𐑘𐑹"
+	cont "𐑡𐑻𐑯𐑦 𐑩𐑢𐑱𐑑!!"
 	done
 
 _PalletTownPlayersHouseSignText::
