@@ -1694,62 +1694,62 @@ _LinkCanceledText::
 	done
 
 _OakSpeechText1::
-	text "Hello there!"
-	line "Welcome to the"
-	cont "world of #MON!"
+	text "𐑣𐑧𐑤𐑴 𐑞𐑺!"
+	line "𐑢𐑧𐑤𐑒𐑩𐑥 𐑑 𐑞"
+	cont "𐑢𐑻𐑤𐑛 𐑝 #𐑥𐑪𐑯"
 
-	para "My name is OAK!"
-	line "People call me"
-	cont "the #MON PROF!"
+	para "𐑥𐑲 𐑯𐑱𐑥 𐑦𐑟 ·𐑴𐑒!"
+	line "𐑐𐑰𐑐𐑩𐑤 𐑒𐑷𐑤 𐑥𐑰"
+	cont "𐑞 #𐑥𐑪𐑯 𐑐𐑮𐑪𐑓!"
 	prompt
 
 _OakSpeechText2A::
-	text "This world is"
-	line "inhabited by"
-	cont "creatures called"
-	cont "#MON!@"
+	text "𐑞𐑦𐑕 𐑢𐑻𐑤𐑛 𐑦𐑟"
+	line "𐑦𐑯𐑣𐑨𐑚𐑦𐑑𐑩𐑛 𐑚𐑲"
+	cont "𐑒𐑮𐑰𐑗𐑼𐑟 𐑒𐑷𐑤𐑛"
+	cont "#𐑥𐑪𐑯!@"
 	text_end
 
 _OakSpeechText2B::
 	text_start
 
-	para "For some people,"
-	line "#MON are"
-	cont "pets. Others use"
-	cont "them for fights."
+	para "𐑓 𐑕𐑳𐑥 𐑐𐑰𐑐𐑩𐑤,"
+	line "#𐑥𐑪𐑯 𐑸"
+	cont "𐑐𐑧𐑑𐑕. 𐑳𐑞𐑼𐑟 𐑿𐑟"
+	cont "𐑞𐑧𐑥 𐑓 𐑓𐑲𐑑𐑕."
 
-	para "Myself..."
+	para "𐑥𐑲𐑕𐑧𐑤𐑓..."
 
-	para "I study #MON"
-	line "as a profession."
+	para "𐑲 𐑕𐑑𐑳𐑛𐑦 #𐑥𐑪𐑯"
+	line "𐑨𐑟 𐑩 𐑐𐑮𐑩𐑓𐑧𐑖𐑩𐑯."
 	prompt
 
 _IntroducePlayerText::
-	text "First, what is"
-	line "your name?"
+	text "𐑓𐑻𐑕𐑑, 𐑢𐑪𐑑 𐑦𐑟"
+	line "𐑘𐑹 𐑯𐑱𐑥?"
 	prompt
 
 _IntroduceRivalText::
-	text "This is my grand-"
-	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
+	text "𐑞𐑦𐑕 𐑦𐑟 𐑥𐑲 𐑜𐑮𐑨𐑯𐑛-"
+	line "𐑕𐑳𐑯. 𐑣𐑰𐑟 𐑚𐑰𐑯"
+	cont "𐑘𐑹 𐑮𐑲𐑝𐑩𐑤 𐑕𐑦𐑯𐑕"
+	cont "𐑿 𐑢𐑻 𐑩 𐑚𐑱𐑚𐑦."
 
-	para "...Erm, what is"
-	line "his name again?"
+	para "...𐑻𐑥, 𐑢𐑪𐑑 𐑦𐑟"
+	line "𐑣𐑦𐑟 𐑯𐑱𐑥 𐑩𐑜𐑧𐑯?"
 	prompt
 
 _OakSpeechText3::
 	text "<PLAYER>!"
 
-	para "Your very own"
-	line "#MON legend is"
-	cont "about to unfold!"
+	para "𐑘𐑹 𐑝𐑧𐑮𐑦 𐑴𐑯"
+	line "#𐑥𐑪𐑯 𐑤𐑧𐑡𐑩𐑯𐑛 𐑦𐑟"
+	cont "𐑩𐑚𐑬𐑑 𐑑 𐑳𐑯𐑓𐑴𐑤𐑛!"
 
-	para "A world of dreams"
-	line "and adventures"
-	cont "with #MON"
-	cont "awaits! Let's go!"
+	para "𐑩 𐑢𐑻𐑤𐑛 𐑝 𐑛𐑮𐑰𐑥𐑟"
+	line "𐑯 𐑩𐑛𐑝𐑧𐑯𐑗𐑼𐑟"
+	cont "𐑢𐑦𐑞 #𐑥𐑪𐑯"
+	cont "𐑩𐑢𐑱𐑑𐑕! 𐑤𐑧𐑑𐑕 𐑜𐑴!"
 	done
 
 _DoYouWantToNicknameText::
@@ -1761,14 +1761,14 @@ _DoYouWantToNicknameText::
 	done
 
 _YourNameIsText::
-	text "Right! So your"
-	line "name is <PLAYER>!"
+	text "𐑮𐑲𐑑! 𐑕𐑴 𐑘𐑹"
+	line "𐑯𐑱𐑥 𐑦𐑟 <PLAYER>!"
 	prompt
 
 _HisNameIsText::
-	text "That's right! I"
-	line "remember now! His"
-	cont "name is <RIVAL>!"
+	text "𐑞𐑨𐑑𐑕 𐑮𐑲𐑑! 𐑲"
+	line "𐑮𐑦𐑥𐑧𐑥𐑚𐑼 𐑯𐑬! 𐑣𐑦𐑟"
+	cont "𐑯𐑱𐑥 𐑦𐑟 <RIVAL>!"
 	prompt
 
 _WillBeTradedText::

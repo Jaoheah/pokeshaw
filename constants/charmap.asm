@@ -446,8 +446,8 @@
         charmap "𐑦𐑯", $bb
         charmap "𐑩𐑯", $bc
         charmap "𐑾𐑯", $bd
-        charmap "𐑩𐑤", $be
-        charmap "𐑾c", $bf
+        ;charmap "𐑩𐑤", $be
+        ;charmap "𐑾c", $bf
 
         charmap "<𐑐𐑒>", $e1
         charmap "<𐑥𐑯>", $e2

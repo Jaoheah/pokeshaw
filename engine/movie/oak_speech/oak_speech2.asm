@@ -165,7 +165,7 @@ DisplayIntroNameTextBox:
 	ld b, $a
 	ld c, $9
 	call TextBoxBorder
-	hlcoord 3, 0
+	hlcoord 4, 0
 	ld de, .namestring
 	call PlaceString
 	pop de
@@ -185,7 +185,7 @@ DisplayIntroNameTextBox:
 	jp HandleMenuInput
 
 .namestring
-	db "NAME@"
+	db "𐑯𐑱𐑥@"
 
 INCLUDE "data/player_names.asm"
 
