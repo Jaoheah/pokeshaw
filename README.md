@@ -1,4 +1,4 @@
-# Shavian transilteration
+# Shavian transliteration
 
 This is a WIP fork of the [disassembly of Pokémon Red/Blue](https://github.com/pret/pokered) in order to make a transliteration to the [Shavian alphabet](https://www.shavian.info/).
 
