@@ -133,8 +133,12 @@ MACRO print_name
 	jr PlaceCommandCharacter
 ENDM
 
-PrintPlayerName:: print_name wPlayerName
-PrintRivalName::  print_name wRivalName
+PrintPlayerName::
+	call PlaceNamerDot
+	print_name wPlayerName
+PrintRivalName::
+	call PlaceNamerDot
+	print_name wRivalName
 
 TrainerChar:: print_name TrainerCharText
 TMChar::      print_name TMCharText
@@ -176,14 +180,23 @@ PlaceCommandCharacter::
 	inc de
 	jp PlaceNextChar
 
-TMCharText::      db "TM@"
-TrainerCharText:: db "TRAINER@"
-PCCharText::      db "PC@"
-RocketCharText::  db "ROCKET@"
+PlaceNamerDot::
+	push de
+	ld de, NamerDotText
+	call PlaceString
+	pop de
+	inc hl
+	ret
+
+TMCharText::      db "⸰𐑑𐑥@"
+TrainerCharText:: db "𐑑𐑮𐑱𐑯𐑼@"
+PCCharText::      db "⸰𐑐𐑒@"
+RocketCharText::  db "·𐑮𐑪𐑒𐑩𐑑@"
 PlacePOKeText::   db "𐑐𐑴𐑒𐑱@"
 SixDotsCharText:: db "……@"
-EnemyText::       db "Enemy @"
+EnemyText::       db "𐑧𐑯𐑩𐑥𐑦 @"
 PlacePKMNText::   db "<𐑐𐑒><𐑥𐑯>@"
+NamerDotText::    db "·@"
 
 ContText::
 	push de

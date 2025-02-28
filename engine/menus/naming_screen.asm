@@ -376,6 +376,9 @@ PrintNicknameAndUnderscores:
 	hlcoord 10, 2
 	ld de, wStringBuffer
 	call PlaceString
+	hlcoord 9, 2
+	ld de, NamerDotText
+	call PlaceString
 	hlcoord 10, 3
 	ld a, [wNamingScreenType]
 	cp NAME_MON_SCREEN
