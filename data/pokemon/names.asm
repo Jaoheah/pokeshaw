@@ -7,7 +7,7 @@ ENDM
 MonsterNames::
 	table_width NAME_LENGTH - 1
 	pokemon_name "𐑮𐑲𐑛𐑪𐑯"       ; RHYDON
-	pokemon_name "𐑒𐑨𐑙𐑜𐑩𐑕𐑒𐑭𐑯"   ; KANGASKHAN
+	pokemon_name "𐑒𐑨𐑙𐑩𐑕𐑒𐑭𐑯"    ; KANGASKHAN
 	pokemon_name "𐑯𐑦𐑛𐑼𐑨𐑯♂"     ; NIDORAN♂
 	pokemon_name "𐑒𐑤𐑩𐑓𐑺𐑦"      ; CLEFAIRY
 	pokemon_name "𐑕𐑐𐑽𐑴"        ; SPEAROW
@@ -17,11 +17,11 @@ MonsterNames::
 	pokemon_name "𐑲𐑝𐑦𐑕𐑹"       ; IVYSAUR
 	pokemon_name "𐑦𐑜𐑟𐑧𐑒𐑘𐑩𐑑𐑹"   ; EXEGGUTOR
 	pokemon_name "𐑤𐑦𐑒𐑦𐑑𐑳𐑙"     ; LICKITUNG
-	pokemon_name "𐑧𐑜𐑟𐑩𐑒𐑿𐑑"     ; EXEGGCUTE
+	pokemon_name "𐑧𐑜𐑟𐑩𐑜𐑒𐑿𐑑"    ; EXEGGCUTE
 	pokemon_name "𐑜𐑮𐑲𐑥𐑼"       ; GRIMER
 	pokemon_name "𐑜𐑧𐑙𐑜𐑸"       ; GENGAR
 	pokemon_name "𐑯𐑦𐑛𐑼𐑨𐑯♀"     ; NIDORAN♀
-	pokemon_name "𐑯𐑦𐑛𐑩𐑒𐑢𐑰𐑯"    ; NIDOQUEEN
+	pokemon_name "𐑯𐑦𐑛𐑴𐑒𐑢𐑰𐑯"    ; NIDOQUEEN
 	pokemon_name "𐑒𐑿𐑚𐑴𐑯"       ; CUBONE
 	pokemon_name "𐑮𐑲𐑣𐑹𐑯"       ; RHYHORN
 	pokemon_name "𐑤𐑨𐑐𐑮𐑩𐑕"      ; LAPRAS
@@ -75,7 +75,7 @@ MonsterNames::
 	pokemon_name "𐑥𐑦𐑕𐑦𐑙 𐑯𐑳𐑥𐑚𐑼" ; MISSINGNO.
 	pokemon_name "𐑥𐑦𐑕𐑦𐑙 𐑯𐑳𐑥𐑚𐑼" ; MISSINGNO.
 	pokemon_name "𐑥𐑦𐑕𐑦𐑙 𐑯𐑳𐑥𐑚𐑼" ; MISSINGNO.
-	pokemon_name "𐑛𐑴𐑛𐑿𐑴"       ; DODUO
+	pokemon_name "𐑛𐑴𐑛𐑵𐑴"       ; DODUO
 	pokemon_name "𐑐𐑪𐑤𐑦𐑢𐑨𐑜"     ; POLIWAG
 	pokemon_name "𐑡𐑦𐑙𐑒𐑕"       ; JYNX
 	pokemon_name "𐑥𐑴𐑤𐑑𐑮𐑱𐑕"     ; MOLTRES
@@ -125,7 +125,7 @@ MonsterNames::
 	pokemon_name "𐑐𐑮𐑲𐑥𐑱𐑐"      ; PRIMEAPE
 	pokemon_name "𐑛𐑳𐑜𐑑𐑮𐑰𐑴"     ; DUGTRIO
 	pokemon_name "𐑝𐑧𐑯𐑩𐑥𐑪𐑔"     ; VENOMOTH
-	pokemon_name "𐑛𐑿𐑜𐑪𐑙"       ; DEWGONG
+	pokemon_name "𐑛𐑵𐑜𐑪𐑙"       ; DEWGONG
 	pokemon_name "𐑥𐑦𐑕𐑦𐑙 𐑯𐑳𐑥𐑚𐑼" ; MISSINGNO.
 	pokemon_name "𐑥𐑦𐑕𐑦𐑙 𐑯𐑳𐑥𐑚𐑼" ; MISSINGNO.
 	pokemon_name "𐑒𐑨𐑑𐑼𐑐𐑦"      ; CATERPIE
@@ -154,7 +154,7 @@ MonsterNames::
 	pokemon_name "𐑥𐑦𐑕𐑦𐑙 𐑯𐑳𐑥𐑚𐑼" ; MISSINGNO.
 	pokemon_name "𐑣𐑷𐑯𐑑𐑼"       ; HAUNTER
 	pokemon_name "𐑨𐑚𐑮𐑩"        ; ABRA
-	pokemon_name "𐑩𐑤𐑨𐑒𐑩𐑟𐑨𐑥"    ; ALAKAZAM
+	pokemon_name "𐑨𐑤𐑩𐑒𐑩𐑟𐑨𐑥"    ; ALAKAZAM
 	pokemon_name "𐑐𐑦𐑡𐑦𐑪𐑑𐑴"     ; PIDGEOTTO
 	pokemon_name "𐑐𐑦𐑡𐑦𐑪𐑑"      ; PIDGEOT
 	pokemon_name "𐑕𐑑𐑸𐑥𐑰"       ; STARMIE
@@ -172,7 +172,7 @@ MonsterNames::
 	pokemon_name "𐑮𐑨𐑐𐑦𐑛𐑨𐑖"     ; RAPIDASH
 	pokemon_name "𐑮𐑨𐑑𐑩𐑑𐑭"      ; RATTATA
 	pokemon_name "𐑮𐑨𐑑𐑦𐑒𐑱𐑑"     ; RATICATE
-	pokemon_name "𐑯𐑰𐑛𐑴𐑮𐑰𐑯𐑴"    ; NIDORINO
+	pokemon_name "𐑯𐑰𐑛𐑼𐑰𐑯𐑴"     ; NIDORINO
 	pokemon_name "𐑯𐑦𐑛𐑼𐑰𐑯𐑩"     ; NIDORINA
 	pokemon_name "𐑡𐑰𐑴𐑛𐑵𐑛"      ; GEODUDE
 	pokemon_name "𐑐𐑪𐑮𐑦𐑜𐑪𐑯"     ; PORYGON
