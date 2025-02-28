@@ -8,7 +8,7 @@ MonsterNames::
 	table_width NAME_LENGTH - 1
 	pokemon_name "𐑮𐑲𐑛𐑪𐑯"       ; RHYDON
 	pokemon_name "𐑒𐑨𐑙𐑩𐑕𐑒𐑭𐑯"    ; KANGASKHAN
-	pokemon_name "𐑯𐑦𐑛𐑼𐑨𐑯♂"     ; NIDORAN♂
+	pokemon_name "𐑯𐑰𐑛𐑼𐑨𐑯♂"     ; NIDORAN♂
 	pokemon_name "𐑒𐑤𐑩𐑓𐑺𐑦"      ; CLEFAIRY
 	pokemon_name "𐑕𐑐𐑽𐑴"        ; SPEAROW
 	pokemon_name "𐑝𐑴𐑤𐑑𐑹𐑚"      ; VOLTORB
@@ -20,8 +20,8 @@ MonsterNames::
 	pokemon_name "𐑧𐑜𐑟𐑩𐑜𐑒𐑿𐑑"    ; EXEGGCUTE
 	pokemon_name "𐑜𐑮𐑲𐑥𐑼"       ; GRIMER
 	pokemon_name "𐑜𐑧𐑙𐑜𐑸"       ; GENGAR
-	pokemon_name "𐑯𐑦𐑛𐑼𐑨𐑯♀"     ; NIDORAN♀
-	pokemon_name "𐑯𐑦𐑛𐑴𐑒𐑢𐑰𐑯"    ; NIDOQUEEN
+	pokemon_name "𐑯𐑰𐑛𐑼𐑨𐑯♀"     ; NIDORAN♀
+	pokemon_name "𐑯𐑰𐑛𐑴𐑒𐑢𐑰𐑯"    ; NIDOQUEEN
 	pokemon_name "𐑒𐑿𐑚𐑴𐑯"       ; CUBONE
 	pokemon_name "𐑮𐑲𐑣𐑹𐑯"       ; RHYHORN
 	pokemon_name "𐑤𐑨𐑐𐑮𐑩𐑕"      ; LAPRAS
@@ -173,7 +173,7 @@ MonsterNames::
 	pokemon_name "𐑮𐑨𐑑𐑩𐑑𐑭"      ; RATTATA
 	pokemon_name "𐑮𐑨𐑑𐑦𐑒𐑱𐑑"     ; RATICATE
 	pokemon_name "𐑯𐑰𐑛𐑼𐑰𐑯𐑴"     ; NIDORINO
-	pokemon_name "𐑯𐑦𐑛𐑼𐑰𐑯𐑩"     ; NIDORINA
+	pokemon_name "𐑯𐑰𐑛𐑼𐑰𐑯𐑩"     ; NIDORINA
 	pokemon_name "𐑡𐑰𐑴𐑛𐑵𐑛"      ; GEODUDE
 	pokemon_name "𐑐𐑪𐑮𐑦𐑜𐑪𐑯"     ; PORYGON
 	pokemon_name "𐑺𐑴𐑛𐑨𐑒𐑑𐑤"     ; AERODACTYL
