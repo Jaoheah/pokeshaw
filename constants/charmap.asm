@@ -387,7 +387,7 @@
 
 ;; Shavian letters
         charmap "·", $e9        ; namer dot
-        charmap "∘", $e5        ; accroring
+        charmap "⸰", $e5        ; accroring
         charmap "𐑐", $80
         charmap "𐑑", $81
         charmap "𐑒", $82
