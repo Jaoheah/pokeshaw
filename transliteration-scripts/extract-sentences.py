@@ -158,6 +158,9 @@ REPLACEMENTS = {
     "BELLSPROUT": "𐑚𐑧𐑤𐑕𐑐𐑮𐑬𐑑",
     "WEEPINBELL": "𐑢𐑰𐑐𐑦𐑯𐑚𐑧𐑤",
     "VICTREEBEL": "𐑝𐑦𐑒𐑑𐑮𐑦𐑚𐑧𐑤",
+
+    "#·𐑥𐑳𐑯𐑛𐑱": "#𐑥𐑪𐑯", # latin2shaw translates MON as monday
+    "#𐑥𐑳𐑯𐑛𐑱": "#𐑥𐑪𐑯",
 }
 
 WORD_END_RE = re.compile(r'\b')
