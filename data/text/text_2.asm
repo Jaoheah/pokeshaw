@@ -280,8 +280,8 @@ _CeladonCityHotelText::
 	done
 
 _BookcaseText::
-	text "Crammed full of"
-	line "#MON books!"
+	text "𐑒𐑮𐑨𐑥𐑛 𐑓𐑫𐑤 𐑝"
+	line "#𐑥𐑪𐑯 𐑚𐑫𐑒𐑕!"
 	done
 
 _NewBicycleText::
@@ -798,8 +798,8 @@ _IndigoPlateauStatuesText3::
 	done
 
 _PokemonBooksText::
-	text "Crammed full of"
-	line "#MON books!"
+	text "𐑒𐑮𐑨𐑥𐑛 𐑓𐑫𐑤 𐑝"
+	line "#𐑥𐑪𐑯 𐑚𐑫𐑒𐑕!"
 	done
 
 _DiglettSculptureText::
@@ -813,7 +813,7 @@ _ElevatorText::
 	done
 
 _TownMapText::
-	text "A TOWN MAP.@"
+	text "𐑩 𐑑𐑬𐑯 𐑥𐑨𐑐.@"
 	text_end
 
 _PokemonStuffText::
