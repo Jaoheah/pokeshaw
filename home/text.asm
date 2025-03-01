@@ -103,6 +103,7 @@ PlaceNextChar::
 	dict "<DEXEND>",  PlaceDexEnd
 	dict "<TARGET>",  PlaceMoveTargetsName
 	dict "<USER>",    PlaceMoveUsersName
+	dict "<POS>",     PlacePossessive
 
 	ld [hli], a
 	call PrintLetterDelay
@@ -139,6 +140,21 @@ PrintPlayerName::
 PrintRivalName::
 	call PlaceNamerDot
 	print_name wRivalName
+PlacePossessive:
+	;; get the last letter printed
+	dec hl
+	ld a, [hli]
+	;; add ’𐑕 for these five letters and assume they are all in order
+	assert "𐑔" + 1 - "𐑐" == 5
+	push de
+	ld de, PossessiveZText
+	cp a, "𐑐"
+	jr c, .voiced
+	cp a, "𐑔" + 1
+	jr nc, .voiced
+	ld de, PossessiveSText
+.voiced
+	jr PlaceCommandCharacter
 
 TrainerChar:: print_name TrainerCharText
 TMChar::      print_name TMCharText
@@ -197,6 +213,8 @@ SixDotsCharText:: db "……@"
 EnemyText::       db "𐑧𐑯𐑩𐑥𐑦 @"
 PlacePKMNText::   db "<𐑐𐑒><𐑥𐑯>@"
 NamerDotText::    db "·@"
+PossessiveSText:: db "'𐑕@"
+PossessiveZText:: db "'𐑟@"
 
 ContText::
 	push de

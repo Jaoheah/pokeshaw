@@ -29,6 +29,7 @@ REPLACEMENT_LENGTHS = {
     "#": 4, # 𐑐𐑴𐑒𐑱
     "<PLAYER>": 7 + 1, # maximum player name length + 1 for the namer dot
     "<RIVAL>": 7 + 1, # same for the rival
+    "<POS>": 1, # '𐑕 or '𐑟 (both ligatures)
 
     # Pokemon names. It looks like the maximum length is 10?
     "<USER>": 10,

@@ -26,7 +26,7 @@ _TradeWentToText::
 	done
 
 _TradeForText::
-	text "For <PLAYER>'s"
+	text "For <PLAYER><POS>"
 	line "@"
 	text_ram wStringBuffer
 	text ","
@@ -68,7 +68,7 @@ _TradeWillTradeText::
 	done
 
 _TradeforText::
-	text "for <PLAYER>'s"
+	text "for <PLAYER><POS>"
 	line "@"
 	text_ram wStringBuffer
 	text "."
@@ -843,12 +843,12 @@ _EnemyRanText::
 	prompt
 
 _HurtByPoisonText::
-	text "<USER>'s"
+	text "<USER><POS>"
 	line "hurt by poison!"
 	prompt
 
 _HurtByBurnText::
-	text "<USER>'s"
+	text "<USER><POS>"
 	line "hurt by the burn!"
 	prompt
 
@@ -1008,7 +1008,7 @@ _IsFrozenText::
 	prompt
 
 _FullyParalyzedText::
-	text "<USER>'s"
+	text "<USER><POS>"
 	line "fully paralyzed!"
 	prompt
 
@@ -1023,7 +1023,7 @@ _MustRechargeText::
 	prompt
 
 _DisabledNoMoreText::
-	text "<USER>'s"
+	text "<USER><POS>"
 	line "disabled no more!"
 	prompt
 
@@ -1038,7 +1038,7 @@ _HurtItselfText::
 	prompt
 
 _ConfusedNoMoreText::
-	text "<USER>'s"
+	text "<USER><POS>"
 	line "confused no more!"
 	prompt
 
@@ -1053,12 +1053,12 @@ _UnleashedEnergyText::
 	prompt
 
 _ThrashingAboutText::
-	text "<USER>'s"
+	text "<USER><POS>"
 	line "thrashing about!"
 	done
 
 _AttackContinuesText::
-	text "<USER>'s"
+	text "<USER><POS>"
 	line "attack continues!"
 	done
 
@@ -1068,7 +1068,7 @@ _CantMoveText::
 	prompt
 
 _MoveIsDisabledText::
-	text "<USER>'s"
+	text "<USER><POS>"
 	line "@"
 	text_ram wNameBuffer
 	text " is"
@@ -1119,7 +1119,7 @@ _ExclamationPoint5Text::
 	done
 
 _AttackMissedText::
-	text "<USER>'s"
+	text "<USER><POS>"
 	line "attack missed!"
 	prompt
 
@@ -1130,7 +1130,7 @@ _KeptGoingAndCrashedText::
 	prompt
 
 _UnaffectedText::
-	text "<TARGET>'s"
+	text "<TARGET><POS>"
 	line "unaffected!"
 	prompt
 
@@ -1184,12 +1184,12 @@ _SubstituteTookDamageText::
 	prompt
 
 _SubstituteBrokeText::
-	text "<TARGET>'s"
+	text "<TARGET><POS>"
 	line "SUBSTITUTE broke!"
 	prompt
 
 _BuildingRageText::
-	text "<USER>'s"
+	text "<USER><POS>"
 	line "RAGE is building!"
 	prompt
 
