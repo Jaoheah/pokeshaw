@@ -243,3 +243,5 @@ for line in sys.stdin:
         parts.append(md.group(1))
         in_text = True
         
+if in_text:
+    transliterate_text(" ".join(parts))
