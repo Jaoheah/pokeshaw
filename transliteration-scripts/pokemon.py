@@ -1,6 +1,7 @@
 import re
 
-TEXT_RE = re.compile(r'^[\t ]*(?:text|next|page|line|cont|para) "([^"]*)" *$')
+TEXT_RE = re.compile(r'^[\t ]*(?P<macro>text|next|page|line|cont|para) *'
+                     r'"(?P<text>[^"]*)" *$')
 MAX_LINE_LENGTH = 18
 
 # These sequences end up with a different length when assembled

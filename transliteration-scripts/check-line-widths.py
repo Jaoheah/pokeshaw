@@ -12,7 +12,7 @@ for filename in sys.argv[1:]:
             if md is None:
                 continue
 
-            text = md.group(1)
+            text = md.group("text")
 
             length = pokemon.word_length(text)
 

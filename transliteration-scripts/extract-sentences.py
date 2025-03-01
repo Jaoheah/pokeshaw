@@ -199,19 +199,18 @@ def word_wrap(text):
     if length > 0:
         yield " ".join(parts)
 
-def transliterate_text(text):
+def transliterate_text(text, macro_start, is_pokedex):
     text = latin2shaw.latin2shaw(text)
 
     for line_num, line in enumerate(word_wrap(text)):
-        if line_num > 0 and line_num % 3 == 0:
-            print()
-
         if line_num == 0:
-            macro = "text"
-        elif line_num % 3 == 0:
-            macro = "page"
-        else:
+            macro = macro_start
+        elif is_pokedex:
             macro = "next"
+        elif line_num == 1:
+            macro = "line"
+        else:
+            macro = "cont"
 
         print(f"\t{macro} \"{line}\"")
 
@@ -222,6 +221,16 @@ except FileExistsError:
 
 in_text = False
 parts = []
+macro_start = None
+is_pokedex = False
+
+def flush_paragraph():
+    global in_text, parts, macro_start, is_pokedex
+
+    if in_text:
+        transliterate_text(" ".join(parts), macro_start, is_pokedex)
+        in_text = False
+        parts.clear()
 
 for line in sys.stdin:
     line = line.rstrip()
@@ -230,18 +239,18 @@ for line in sys.stdin:
 
     if in_text:
         if md is None:
-            if len(line) > 0:
-                transliterate_text(" ".join(parts))
-                in_text = False
-                parts.clear()
-                print(line)
+            flush_paragraph()
+            print(line)
         else:
-            parts.append(md.group(1))
+            if md.group("macro") == "next":
+                is_pokedex = True
+            parts.append(md.group("text"))
     elif md is None:
         print(line)
     else:
-        parts.append(md.group(1))
+        macro_start = md.group("macro")
+        is_pokedex = macro_start == "page"
+        parts.append(md.group("text"))
         in_text = True
         
-if in_text:
-    transliterate_text(" ".join(parts))
+flush_paragraph()
