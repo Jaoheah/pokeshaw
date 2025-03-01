@@ -1440,8 +1440,8 @@ _RareCandyText::
 	text_end
 
 _TurnedOnPC1Text::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> 𐑑𐑻𐑯𐑛 𐑪𐑯"
+	line "𐑞 𐑐𐑰𐑕𐑰."
 	prompt
 
 _AccessedBillsPCText::
@@ -1468,13 +1468,13 @@ _AccessedMyPCText::
 	prompt
 
 _TurnedOnPC2Text::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> 𐑑𐑻𐑯𐑛 𐑪𐑯"
+	line "𐑞 𐑐𐑰𐑕𐑰."
 	prompt
 
 _WhatDoYouWantText::
-	text "What do you want"
-	line "to do?"
+	text "𐑢𐑪𐑑 𐑛𐑵 𐑿 𐑢𐑪𐑯𐑑 𐑑"
+	line "𐑛𐑵?"
 	done
 
 _WhatToDepositText::
