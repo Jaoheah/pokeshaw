@@ -89,32 +89,32 @@
 
 ; Actual characters (from gfx/font/font.png)
 
-	charmap "A",         $c6
-	charmap "B",         $c7
-	charmap "C",         $c8
-	charmap "D",         $c9
-	charmap "E",         $ca
-	charmap "F",         $cb
-	charmap "G",         $cc
-	charmap "H",         $cd
-	charmap "I",         $ce
-	charmap "J",         $cf
-	charmap "K",         $d0
-	charmap "L",         $d1
-	charmap "M",         $d2
-	charmap "N",         $d3
-	charmap "O",         $d4
-	charmap "P",         $d5
-	charmap "Q",         $d6
-	charmap "R",         $d7
-	charmap "S",         $d8
-	charmap "T",         $d9
-	charmap "U",         $da
-	charmap "V",         $db
-	charmap "W",         $dc
-	charmap "X",         $dd
-	charmap "Y",         $de
-	charmap "Z",         $df
+	charmap "A",         $cb
+	charmap "B",         $cc
+	charmap "C",         $cd
+	charmap "D",         $ce
+	charmap "E",         $cf
+	charmap "F",         $d0
+	charmap "G",         $d1
+	charmap "H",         $d2
+	charmap "I",         $d3
+	charmap "J",         $d4
+	charmap "K",         $d5
+	charmap "L",         $d6
+	charmap "M",         $d7
+	charmap "N",         $d8
+	charmap "O",         $d9
+	charmap "P",         $da
+	charmap "Q",         $db
+	charmap "R",         $dc
+	charmap "S",         $dd
+	charmap "T",         $de
+	charmap "U",         $df
+	charmap "V",         $e4
+	charmap "W",         $e5
+	charmap "X",         $e9
+	charmap "Y",         $ea
+	charmap "Z",         $eb
 
 	charmap "(",         $9a
 	charmap ")",         $9b
@@ -123,32 +123,32 @@
 	charmap "[",         $9e
 	charmap "]",         $9f
 
-	charmap "a",         $c6
-	charmap "b",         $c7
-	charmap "c",         $c8
-	charmap "d",         $c9
-	charmap "e",         $ca
-	charmap "f",         $cb
-	charmap "g",         $cc
-	charmap "h",         $cd
-	charmap "i",         $ce
-	charmap "j",         $cf
-	charmap "k",         $d0
-	charmap "l",         $d1
-	charmap "m",         $d2
-	charmap "n",         $d3
-	charmap "o",         $d4
-	charmap "p",         $d5
-	charmap "q",         $d6
-	charmap "r",         $d7
-	charmap "s",         $d8
-	charmap "t",         $d9
-	charmap "u",         $da
-	charmap "v",         $db
-	charmap "w",         $dc
-	charmap "x",         $dd
-	charmap "y",         $de
-	charmap "z",         $df
+	charmap "a",         $cb
+	charmap "b",         $cc
+	charmap "c",         $cd
+	charmap "d",         $ce
+	charmap "e",         $cf
+	charmap "f",         $d0
+	charmap "g",         $d1
+	charmap "h",         $d2
+	charmap "i",         $d3
+	charmap "j",         $d4
+	charmap "k",         $d5
+	charmap "l",         $d6
+	charmap "m",         $d7
+	charmap "n",         $d8
+	charmap "o",         $d9
+	charmap "p",         $da
+	charmap "q",         $db
+	charmap "r",         $dc
+	charmap "s",         $dd
+	charmap "t",         $de
+	charmap "u",         $df
+	charmap "v",         $e4
+	charmap "w",         $e5
+	charmap "x",         $e9
+	charmap "y",         $ea
+	charmap "z",         $eb
 
 	charmap "é",         $ba
 	charmap "'d",        $bb
@@ -385,9 +385,13 @@
 	charmap "８", $fe
 	charmap "９", $ff
 
-;; Shavian letters
-        charmap "·", $e9        ; namer dot
-        charmap "⸰", $e5        ; accroring
+        ;; Shavian punctuation
+        charmap "·", $b6        ; namer dot
+        charmap "⸰", $b7        ; accroring
+        charmap "«", $b8
+        charmap "»", $b9
+
+        ;; Shavian letters
         charmap "𐑐", $80
         charmap "𐑑", $81
         charmap "𐑒", $82
@@ -409,24 +413,24 @@
         charmap "𐑢", $92
         charmap "𐑣", $93
         charmap "𐑤", $94
-        charmap "𐑥", $96
-        charmap "𐑦", $98
-        charmap "𐑧", $a0
-        charmap "𐑨", $a2
-        charmap "𐑩", $a4
-        charmap "𐑪", $a6
-        charmap "𐑫", $a8
-        charmap "𐑬", $aa
-        charmap "𐑭", $ac
-        charmap "𐑮", $95
-        charmap "𐑯", $97
-        charmap "𐑰", $99
-        charmap "𐑱", $a1
-        charmap "𐑲", $a3
-        charmap "𐑳", $a5
-        charmap "𐑴", $a7
-        charmap "𐑵", $a9
-        charmap "𐑶", $ab
+        charmap "𐑥", $95
+        charmap "𐑦", $96
+        charmap "𐑧", $97
+        charmap "𐑨", $98
+        charmap "𐑩", $99
+        charmap "𐑪", $a0
+        charmap "𐑫", $a1
+        charmap "𐑬", $a2
+        charmap "𐑭", $a3
+        charmap "𐑮", $a4
+        charmap "𐑯", $a5
+        charmap "𐑰", $a6
+        charmap "𐑱", $a7
+        charmap "𐑲", $a8
+        charmap "𐑳", $a9
+        charmap "𐑴", $aa
+        charmap "𐑵", $ab
+        charmap "𐑶", $ac
         charmap "𐑷", $ad
         charmap "𐑸", $ae
         charmap "𐑹", $af
@@ -437,21 +441,26 @@
         charmap "𐑾", $b4
         charmap "𐑿", $b5
 
+        ;; Unofficial Shavian characters with no unicode entry
+        charmap "<HALFAIR>", $ba
+        charmap "<HALFERR>", $bb
+
         ;; Extra ligatures
-        charmap "𐑦𐑑", $b6
-        charmap "𐑦𐑓", $b7
-        charmap "𐑦𐑕", $b8
-        charmap "𐑦𐑖", $b9
-        charmap "𐑦𐑟", $ba
-        charmap "𐑦𐑯", $bb
-        charmap "𐑩𐑯", $bc
-        charmap "𐑾𐑯", $bd
-        ;charmap "𐑩𐑤", $be
-        ;charmap "𐑾c", $bf
+        charmap "𐑦𐑑", $bc
+        charmap "𐑦𐑓", $bd
+        charmap "𐑦𐑕", $be
+        charmap "𐑦𐑖", $bf
+        charmap "𐑦𐑙", $c0
+        charmap "𐑦𐑜", $c1
+        charmap "𐑦𐑯", $c2
+        charmap "𐑩𐑛", $c3
+        charmap "𐑩𐑯", $c4
+        charmap "𐑾𐑯", $c5
+        charmap "𐑯𐑑", $c6
+        charmap "'𐑑", $c7
+        charmap "'𐑕", $c8
+        charmap "'𐑛", $c9
+        charmap "'𐑟", $ca
 
         charmap "<𐑐𐑒>", $e1
         charmap "<𐑥𐑯>", $e2
-
-        charmap "𐑦𐑙", $e4
-        charmap "𐑩𐑛", $ea
-        charmap "𐑯𐑑", $eb

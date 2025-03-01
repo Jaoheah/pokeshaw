@@ -5,18 +5,26 @@ MAX_LINE_LENGTH = 18
 
 # These sequences end up with a different length when assembled
 REPLACEMENT_LENGTHS = {
+    # Unofficial Shavian characters
+    "<HALFAIR>": 1,
+    "<HALFERR>": 1,
+
     # Ligatures
     "𐑦𐑑": 1,
     "𐑦𐑓": 1,
     "𐑦𐑕": 1,
     "𐑦𐑖": 1,
-    "𐑦𐑟": 1,
+    "𐑦𐑙": 1,
+    "𐑦𐑜": 1,
     "𐑦𐑯": 1,
+    "𐑩𐑛": 1,
     "𐑩𐑯": 1,
     "𐑾𐑯": 1,
-    "𐑦𐑙": 1,
-    "𐑩𐑛": 1,
     "𐑯𐑑": 1,
+    "'𐑑": 1,
+    "'𐑕": 1,
+    "'𐑛": 1,
+    "'𐑟": 1,
 
     "#": 4, # 𐑐𐑴𐑒𐑱
     "<PLAYER>": 7 + 1, # maximum player name length + 1 for the namer dot
