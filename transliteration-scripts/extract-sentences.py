@@ -6,7 +6,7 @@ import re
 import sys
 import pokemon
 
-REPLACEMENTS = {
+POKEMON_NAMES = {
     "RHYDON": "𐑮𐑲𐑛𐑪𐑯",
     "KANGASKHAN": "𐑒𐑨𐑙𐑜𐑩𐑕𐑒𐑭𐑯",
     "NIDORAN♂": "𐑯𐑦𐑛𐑼𐑨𐑯♂",
@@ -158,33 +158,26 @@ REPLACEMENTS = {
     "BELLSPROUT": "𐑚𐑧𐑤𐑕𐑐𐑮𐑬𐑑",
     "WEEPINBELL": "𐑢𐑰𐑐𐑦𐑯𐑚𐑧𐑤",
     "VICTREEBEL": "𐑝𐑦𐑒𐑑𐑮𐑦𐑚𐑧𐑤",
-
-    "#·𐑥𐑳𐑯𐑛𐑱": "#𐑥𐑪𐑯", # latin2shaw translates MON as monday
-    "#𐑥𐑳𐑯𐑛𐑱": "#𐑥𐑪𐑯",
 }
 
-WORD_END_RE = re.compile(r'\b')
+REPLACEMENTS = [
+    (re.compile(r'#·?𐑥𐑳𐑯𐑛𐑱\b'), "#𐑥𐑪𐑯"), # latin2shaw translates MON as monday
+]
+
+for latin, shavian in sorted(POKEMON_NAMES.items()):
+    REPLACEMENTS.append((re.compile(re.escape(latin) + "(✢|\b)"), shavian))
 
 def word_wrap(text):
     parts = []
     length = 0
 
     for word in text.split():
-        # Check if there is a replacement ending at any of the word
-        # boundaries in the word text
-        for md in WORD_END_RE.finditer(word):
-            marker_pos = md.start()
-            try:
-                check_word = word[0:marker_pos]
-                # If the word boundary is because latin2shaw added a ✢
-                # then remove it on the assumption that the
-                # replacement is good
-                if marker_pos < len(word) and word[marker_pos] == "✢":
-                    marker_pos += 1
-                word = REPLACEMENTS[check_word] + word[marker_pos:]
+        for regex, replacement in REPLACEMENTS:
+            md = regex.match(word)
+
+            if md is not None:
+                word = replacement + word[md.end():]
                 break
-            except KeyError:
-                pass
 
         wl = pokemon.word_length(word)
 
