@@ -211,7 +211,18 @@ GetDefaultName:
 	ld l, e
 	ld de, wNameBuffer
 	ld bc, NAME_BUFFER_LENGTH
-	jp CopyData
+	;; Is the first character the namer dot?
+	ld a, [hl]
+	cp a, "·"
+	jp nz, CopyData         ; if not just copy it as normal
+	;; Skip the first character
+	inc hl
+	dec bc
+	call CopyData
+	;; Add an extra terminator to compensate
+	ld a, "@"
+	ld [de], a
+	ret
 
 INCLUDE "data/player_names_list.asm"
 
