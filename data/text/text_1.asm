@@ -1,16 +1,16 @@
 _CardKeySuccessText1::
-	text "Bingo!@"
+	text "𐑚𐑦𐑙𐑜𐑴!@"
 	text_end
 
 _CardKeySuccessText2::
 	text_start
-	line "The CARD KEY"
-	cont "opened the door!"
+	line "𐑞 𐑒𐑸𐑛 𐑒𐑰"
+	cont "𐑴𐑐𐑩𐑯𐑛 𐑞 𐑛𐑹!"
 	done
 
 _CardKeyFailText::
-	text "Darn! It needs a"
-	line "CARD KEY!"
+	text "𐑛𐑸𐑯! 𐑦𐑑 𐑯𐑰𐑛𐑟 𐑩"
+	line "𐑒𐑸𐑛 𐑒𐑰!"
 	done
 
 _TrainerNameText::
@@ -19,17 +19,17 @@ _TrainerNameText::
 	text_end
 
 _NoNibbleText::
-	text "Not even a nibble!"
+	text "𐑯𐑪𐑑 𐑰𐑝𐑩𐑯 𐑩 𐑯𐑦𐑚𐑩𐑤!"
 	prompt
 
 _NothingHereText::
-	text "Looks like there's"
-	line "nothing here."
+	text "𐑤𐑫𐑒𐑕 𐑤𐑲𐑒 𐑞𐑺𐑟"
+	line "𐑯𐑳𐑔𐑦𐑙 𐑣𐑽."
 	prompt
 
 _ItsABiteText::
-	text "Oh!"
-	line "It's a bite!"
+	text "𐑴!"
+	line "𐑦𐑑𐑕 𐑩 𐑚𐑲𐑑!"
 	prompt
 
 _ExclamationText::
@@ -37,112 +37,112 @@ _ExclamationText::
 	done
 
 _GroundRoseText::
-	text "Ground rose up"
-	line "somewhere!"
+	text "𐑜𐑮𐑬𐑯𐑛 𐑮𐑴𐑟 𐑳𐑐"
+	line "𐑕𐑳𐑥𐑢𐑺!"
 	done
 
 _BoulderText::
-	text "This requires"
-	line "STRENGTH to move!"
+	text "𐑞𐑦𐑕 𐑮𐑦𐑒𐑢𐑲𐑼𐑟"
+	line "«𐑕𐑑𐑮𐑧𐑙𐑔» 𐑑 𐑥𐑵𐑝!"
 	done
 
 _MartSignText::
-	text "All your item"
-	line "needs fulfilled!"
-	cont "#MON MART"
+	text "𐑷𐑤 𐑘𐑹 𐑲𐑑𐑩𐑥"
+	line "𐑯𐑰𐑛𐑟 𐑓𐑫𐑤𐑓𐑦𐑤𐑛!"
+	cont "#𐑥𐑪𐑯 𐑥𐑸𐑑"
 	done
 
 _PokeCenterSignText::
-	text "Heal Your #MON!"
-	line "#MON CENTER"
+	text "𐑣𐑰𐑤 𐑘𐑹 #𐑥𐑪𐑯!"
+	line "#𐑥𐑪𐑯 𐑕𐑧𐑯𐑑𐑼"
 	done
 
 _FoundItemText::
-	text "<PLAYER> found"
+	text "<PLAYER> 𐑓𐑬𐑯𐑛"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _NoMoreRoomForItemText::
-	text "No more room for"
-	line "items!"
+	text "𐑯𐑴 𐑥𐑹 𐑮𐑵𐑥 𐑓"
+	line "𐑲𐑑𐑩𐑥𐑟!"
 	done
 
 _OaksAideHiText::
-	text "Hi! Remember me?"
-	line "I'm PROF.OAK's"
-	cont "AIDE!"
+	text "𐑣𐑲! 𐑮𐑦𐑥𐑧𐑥𐑚𐑼 𐑥𐑰?"
+	line "𐑲𐑥 𐑐𐑮𐑪𐑓. ·𐑴𐑒𐑕"
+	cont "𐑱𐑛!"
 
-	para "If you caught @"
+	para "𐑦𐑓 𐑿 𐑒𐑷𐑑 @"
 	text_decimal hOaksAideRequirement, 1, 3
 	text_start
-	line "kinds of #MON,"
-	cont "I'm supposed to"
-	cont "give you an"
+	line "𐑒𐑲𐑯𐑛𐑟 𐑝 #𐑥𐑪𐑯,"
+	cont "𐑲𐑥 𐑕𐑩𐑐𐑴𐑕𐑑 𐑑"
+	cont "𐑜𐑦𐑝 𐑿 𐑩𐑯"
 	cont "@"
 	text_ram wOaksAideRewardItemName
 	text "!"
 
-	para "So, <PLAYER>! Have"
-	line "you caught at"
-	cont "least @"
+	para "𐑕𐑴, <PLAYER>! 𐑣𐑨𐑝"
+	line "𐑿 𐑒𐑷𐑑 𐑨𐑑"
+	cont "𐑤𐑰𐑕𐑑 @"
 	text_decimal hOaksAideRequirement, 1, 3
-	text " kinds of"
-	cont "#MON?"
+	text " 𐑒𐑲𐑯𐑛𐑟 𐑝"
+	cont "#𐑥𐑪𐑯?"
 	done
 
 _OaksAideUhOhText::
-	text "Let's see..."
-	line "Uh-oh! You have"
-	cont "caught only @"
+	text "𐑤𐑧𐑑𐑕 𐑕𐑰..."
+	line "𐑳-𐑴! 𐑿 𐑣𐑨𐑝"
+	cont "𐑒𐑷𐑑 𐑴𐑯𐑤𐑦 @"
 	text_decimal hOaksAideNumMonsOwned, 1, 3
 	text_start
-	cont "kinds of #MON!"
+	cont "𐑒𐑲𐑯𐑛𐑟 𐑝 #𐑥𐑪𐑯!"
 
-	para "You need @"
+	para "𐑿 𐑯𐑰𐑛 @"
 	text_decimal hOaksAideRequirement, 1, 3
-	text " kinds"
-	line "if you want the"
+	text " 𐑒𐑲𐑯𐑛𐑟"
+	line "𐑦𐑓 𐑿 𐑢𐑪𐑯𐑑 𐑞"
 	cont "@"
 	text_ram wOaksAideRewardItemName
 	text "."
 	done
 
 _OaksAideComeBackText::
-	text "Oh. I see."
+	text "𐑴. 𐑲 𐑕𐑰."
 
-	para "When you get @"
+	para "𐑢𐑧𐑯 𐑿 𐑜𐑧𐑑 @"
 	text_decimal hOaksAideRequirement, 1, 3
 	text_start
-	line "kinds, come back"
-	cont "for @"
+	line "𐑒𐑲𐑯𐑛𐑟, 𐑒𐑳𐑥 𐑚𐑨𐑒"
+	cont "𐑓 @"
 	text_ram wOaksAideRewardItemName
 	text "."
 	done
 
 _OaksAideHereYouGoText::
-	text "Great! You have"
-	line "caught @"
+	text "𐑜𐑮𐑱𐑑! 𐑿 𐑣𐑨𐑝"
+	line "𐑒𐑷𐑑 @"
 	text_decimal hOaksAideNumMonsOwned, 1, 3
-	text " kinds "
-	cont "of #MON!"
-	cont "Congratulations!"
+	text " 𐑒𐑲𐑯𐑛𐑟 "
+	cont "𐑝 #𐑥𐑪𐑯!"
+	cont "𐑒𐑩𐑯𐑜𐑮𐑨𐑗𐑩𐑤𐑱𐑖𐑩𐑯𐑟!"
 
-	para "Here you go!"
+	para "𐑣𐑽 𐑿 𐑜𐑴!"
 	prompt
 
 _OaksAideGotItemText::
-	text "<PLAYER> got the"
+	text "<PLAYER> 𐑜𐑪𐑑 𐑞"
 	line "@"
 	text_ram wOaksAideRewardItemName
 	text "!@"
 	text_end
 
 _OaksAideNoRoomText::
-	text "Oh! I see you"
-	line "don't have any"
-	cont "room for the"
+	text "𐑴! 𐑲 𐑕𐑰 𐑿"
+	line "𐑛𐑴𐑯𐑑 𐑣𐑨𐑝 𐑧𐑯𐑦"
+	cont "𐑮𐑵𐑥 𐑓 𐑞"
 	cont "@"
 	text_ram wOaksAideRewardItemName
 	text "."
