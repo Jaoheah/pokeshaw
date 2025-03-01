@@ -162,6 +162,8 @@ POKEMON_NAMES = {
 
 REPLACEMENTS = [
     (re.compile(r'#·?𐑥𐑳𐑯𐑛𐑱\b'), "#𐑥𐑪𐑯"), # latin2shaw translates MON as monday
+
+    (re.compile(r'&lt;𐑐𐑤𐑱𐑼&gt;'), "<PLAYER>"),
 ]
 
 for latin, shavian in sorted(POKEMON_NAMES.items()):
