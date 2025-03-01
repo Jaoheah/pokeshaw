@@ -1,29 +1,27 @@
 _PalletTownOakHeyWaitDontGoOutText::
-	text "OAK: Hey! Wait!"
-	line "Don't go out!@"
+	text "·𐑴𐑒: 𐑣𐑱! 𐑢𐑱𐑑! 𐑛𐑴𐑯𐑑"
+	line "𐑜𐑴 𐑬𐑑!@"
 	text_end
 
 _PalletTownOakItsUnsafeText::
-	text "OAK: It's unsafe!"
-	line "Wild #MON live"
-	cont "in tall grass!"
+	text "·𐑴𐑒: 𐑦𐑑𐑕 𐑳𐑯𐑕𐑱𐑓!"
+	line "𐑢𐑲𐑤𐑛 #𐑥𐑪𐑯 𐑤𐑦𐑝"
+	cont "𐑦𐑯 𐑑𐑷𐑤 𐑜𐑮𐑭𐑕!"
 
-	para "You need your own"
-	line "#MON for your"
-	cont "protection."
-	cont "I know!"
+	para "𐑿 𐑯𐑰𐑛 𐑘𐑹 𐑴𐑯"
+	line "#𐑥𐑪𐑯 𐑓 𐑘𐑹"
+	cont "𐑐𐑮𐑩𐑑𐑧𐑒𐑖𐑩𐑯. 𐑲 𐑯𐑴!"
 
-	para "Here, come with"
-	line "me!"
+	para "𐑣𐑽, 𐑒𐑳𐑥 𐑢𐑦𐑞 𐑥𐑰!"
 	done
 
 _PalletTownGirlText::
-	text "I'm raising"
-	line "#MON too!"
+	text "𐑲𐑥 𐑮𐑱𐑟𐑦𐑙 #𐑥𐑪𐑯"
+	line "𐑑𐑵!"
 
-	para "When they get"
-	line "strong, they can"
-	cont "protect me!"
+	para "𐑢𐑧𐑯 𐑞𐑱 𐑜𐑧𐑑 𐑕𐑑𐑮𐑪𐑙,"
+	line "𐑞𐑱 𐑒𐑨𐑯 𐑐𐑮𐑩𐑑𐑧𐑒𐑑"
+	cont "𐑥𐑰!"
 	done
 
 _PalletTownFisherText::
@@ -37,8 +35,8 @@ _PalletTownFisherText::
 	done
 
 _PalletTownOaksLabSignText::
-	text "OAK #MON"
-	line "RESEARCH LAB"
+	text "·𐑴𐑒 #𐑥𐑪𐑯 𐑮𐑦𐑕𐑻𐑗"
+	line "𐑤𐑨𐑚"
 	done
 
 _PalletTownSignText::
@@ -48,9 +46,9 @@ _PalletTownSignText::
 	done
 
 _PalletTownPlayersHouseSignText::
-	text "<PLAYER><POS> house "
+	text "<PLAYER><POS> 𐑣𐑬𐑕 "
 	done
 
 _PalletTownRivalsHouseSignText::
-	text "<RIVAL><POS> house "
+	text "<RIVAL><POS> 𐑣𐑬𐑕 "
 	done
