@@ -10,28 +10,26 @@ _RedsHouse1FMomWakeUpText::
 	done
 
 _RedsHouse1FMomYouShouldRestText::
-	text "MOM: <PLAYER>!"
-	line "You should take a"
-	cont "quick rest."
+	text "𐑥𐑪𐑥: <PLAYER>! 𐑿"
+	line "𐑖𐑫𐑛 𐑑𐑱𐑒 𐑩 𐑒𐑢𐑦𐑒"
+	cont "𐑮𐑧𐑕𐑑."
 	prompt
 
 _RedsHouse1FMomLookingGreatText::
-	text "MOM: Oh good!"
-	line "You and your"
-	cont "#MON are"
-	cont "looking great!"
-	cont "Take care now!"
+	text "𐑥𐑪𐑥: 𐑴 𐑜𐑫𐑛! 𐑿 𐑯"
+	line "𐑘𐑹 #𐑥𐑪𐑯 𐑸 𐑤𐑫𐑒𐑦𐑙"
+	cont "𐑜𐑮𐑱𐑑! 𐑑𐑱𐑒 𐑒𐑺 𐑯𐑬!"
 	done
 
 _RedsHouse1FTVStandByMeMovieText::
-	text "There's a movie"
-	line "on TV. Four boys"
-	cont "are walking on"
-	cont "railroad tracks."
+	text "𐑞𐑺𐑟 𐑩 𐑥𐑵𐑝𐑦 𐑪𐑯"
+	line "𐑑𐑰𐑝𐑰. 𐑓𐑹 𐑚𐑶𐑟 𐑸"
+	cont "𐑢𐑷𐑒𐑦𐑙 𐑪𐑯 𐑮𐑱𐑤𐑮𐑴𐑛"
+	cont "𐑑𐑮𐑨𐑒𐑕."
 
-	para "I better go too."
+	para "𐑲 𐑚𐑧𐑑𐑼 𐑜𐑴 𐑑𐑵."
 	done
 
 _RedsHouse1FTVWrongSideText::
-	text "Oops, wrong side."
+	text "𐑵𐑐𐑕, 𐑮𐑪𐑙 𐑕𐑲𐑛."
 	done

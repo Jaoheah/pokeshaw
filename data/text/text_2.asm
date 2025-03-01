@@ -575,10 +575,10 @@ _IndigoPlateauHQText::
 	done
 
 _RedBedroomSNESText::
-	text "<PLAYER> is"
-	line "playing the SNES!"
-	cont "...Okay!"
-	cont "It's time to go!"
+	text "<PLAYER> 𐑦𐑟 𐑐𐑤𐑱𐑦𐑙"
+	line "𐑞 ⸰𐑕𐑯𐑧𐑕!"
+	cont "...𐑴𐑒𐑱!"
+	cont "𐑦𐑑𐑕 𐑑𐑲𐑥 𐑑 𐑜𐑴!"
 	done
 
 _Route15UpstairsBinocularsText::
