@@ -160,18 +160,28 @@ REPLACEMENTS = {
     "VICTREEBEL": "𐑝𐑦𐑒𐑑𐑮𐑦𐑚𐑧𐑤",
 }
 
+WORD_END_RE = re.compile(r'\b')
+
 def word_wrap(text):
     parts = []
     length = 0
 
     for word in text.split():
-        marker_pos = word.find("✢")
-
-        if marker_pos >= 0:
-            bad_word = word[0:marker_pos]
-
-            if bad_word in REPLACEMENTS:
-                word = REPLACEMENTS[bad_word] + word[marker_pos + 1:]
+        # Check if there is a replacement ending at any of the word
+        # boundaries in the word text
+        for md in WORD_END_RE.finditer(word):
+            marker_pos = md.start()
+            try:
+                check_word = word[0:marker_pos]
+                # If the word boundary is because latin2shaw added a ✢
+                # then remove it on the assumption that the
+                # replacement is good
+                if marker_pos < len(word) and word[marker_pos] == "✢":
+                    marker_pos += 1
+                word = REPLACEMENTS[check_word] + word[marker_pos:]
+                break
+            except KeyError:
+                pass
 
         wl = pokemon.word_length(word)
 
