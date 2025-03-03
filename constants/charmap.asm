@@ -454,9 +454,6 @@
         charmap "𐑦𐑙", $c0
         charmap "𐑦𐑜", $c1
         charmap "𐑦𐑯", $c2
-        charmap "𐑩𐑛", $c3
-        charmap "𐑩𐑯", $c4
-        charmap "𐑾𐑯", $c5
         charmap "𐑯𐑑", $c6
         charmap "'𐑑", $c7
         charmap "'𐑕", $c8
