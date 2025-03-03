@@ -32,7 +32,7 @@ MonsterNames::
 	pokemon_name "𐑑𐑧𐑯𐑑𐑩𐑒𐑵𐑤"    ; TENTACOOL
 	pokemon_name "𐑜𐑨𐑕𐑑𐑤𐑦"      ; GASTLY
 	pokemon_name "𐑕𐑲𐑞𐑼"        ; SCYTHER
-	pokemon_name "𐑕𐑛𐑸𐑿"        ; STARYU
+	pokemon_name "𐑕𐑑𐑸𐑿"        ; STARYU
 	pokemon_name "𐑚𐑤𐑨𐑕𐑑𐑶𐑕"     ; BLASTOISE
 	pokemon_name "𐑐𐑦𐑯𐑕𐑻"       ; PINSIR
 	pokemon_name "𐑑𐑨𐑙𐑜𐑩𐑤𐑩"     ; TANGELA
