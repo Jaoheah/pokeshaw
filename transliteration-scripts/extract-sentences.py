@@ -7,7 +7,8 @@ import sys
 import pokemon
 
 REPLACEMENTS = [
-    (re.compile(r'#·?𐑥𐑳𐑯𐑛𐑱\b'), "#𐑥𐑪𐑯"), # latin2shaw translates MON as monday
+    # latin2shaw translates MON as monday
+    (re.compile(r'#·?𐑥𐑳𐑯𐑛𐑱(?=𐑟?\b)'), "#𐑥𐑪𐑯"),
     (re.compile(r'#·𐑛𐑰𐑧𐑒𐑕⚠️'), "#𐑛𐑧𐑒𐑕"), # POKéDEX
     (re.compile(r'\bVIRIDIAN✢'), "·𐑝𐑦𐑮𐑦𐑛𐑾𐑯"),
     # Get rid of the WORD JOINER character that latin2shaw adds after
