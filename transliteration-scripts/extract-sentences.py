@@ -40,56 +40,21 @@ def extract_pokemon_names():
 for shavian, latin in extract_pokemon_names().items():
     REPLACEMENTS.append((re.compile(re.escape(latin) + "(✢|\b)"), shavian))
 
-def word_wrap(text, paragraph):
-    parts = []
-    length = 0
-    line_num = 0
+def replace_word(word):
+    for regex, replacement in REPLACEMENTS:
+        md = regex.match(word)
 
-    words = text.split()
+        if md is not None:
+            return replacement + word[md.end():]
 
-    for word_num, word in enumerate(words):
-        for regex, replacement in REPLACEMENTS:
-            md = regex.match(word)
-
-            if md is not None:
-                word = replacement + word[md.end():]
-                break
-
-        word_length = pokemon.word_length(word)
-        to_add = word_length
-
-        if len(parts) > 0:
-            to_add += 1 # account for the space character
-
-        max_len = paragraph.max_length(line_num, word_num == len(words) - 1)
-
-        if length + to_add > max_len:
-            yield " ".join(parts)
-            line_num += 1
-            parts.clear()
-            length = 0
-            to_add = word_length
-
-        parts.append(word)
-        length += to_add
-
-    if length > 0:
-        yield " ".join(parts)
+    return word
 
 def transliterate_text(paragraph):
-    text = latin2shaw.latin2shaw(" ".join(paragraph.lines))
+    words = [replace_word(word) for word
+             in latin2shaw.latin2shaw(" ".join(paragraph.lines)).split()]
 
-    for line_num, line in enumerate(word_wrap(text, paragraph)):
-        if line_num == 0:
-            macro = paragraph.macro_start
-        elif paragraph.is_pokedex:
-            macro = "next"
-        elif line_num == 1:
-            macro = "line"
-        else:
-            macro = "cont"
-
-        print(f"\t{macro} \"{line}\"")
+    for line in pokemon.word_wrap(words, paragraph):
+        print(line)
 
 try:
     os.symlink(os.path.dirname(latin2shaw.__file__), "static", True)
