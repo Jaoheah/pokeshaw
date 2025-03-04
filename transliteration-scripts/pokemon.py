@@ -1,4 +1,5 @@
 import re
+from collections import namedtuple
 
 TEXT_RE = re.compile(r'^[\t ]*(?P<macro>text|next|page|line|cont|para) *'
                      r'"(?P<text>[^"]*)" *$')
@@ -47,3 +48,45 @@ def word_length(word):
             return 1
 
     return sum(map(match_length, REPLACEMENT_LENGTHS_RE.finditer(word)))
+
+Paragraph = namedtuple('Paragraph', ['lines', 'macro_start', 'is_pokedex'])
+
+def parse_lines(lines):
+    in_text = False
+    parts = []
+    result = []
+    macro_start = None
+    is_pokedex = False
+
+    def flush_paragraph():
+        nonlocal in_text, parts, result, macro_start, is_pokedex
+
+        if in_text:
+            result.append(Paragraph(parts, macro_start, is_pokedex))
+            in_text = False
+            parts = []
+
+    for line in lines:
+        line = line.rstrip()
+
+        md = TEXT_RE.match(line)
+
+        if in_text:
+            if md is None:
+                flush_paragraph()
+                result.append(line)
+            else:
+                if md.group("macro") == "next":
+                    is_pokedex = True
+                parts.append(md.group("text"))
+        elif md is None:
+            result.append(line)
+        else:
+            macro_start = md.group("macro")
+            is_pokedex = macro_start == "page"
+            parts.append(md.group("text"))
+            in_text = True
+
+    flush_paragraph()
+
+    return result

@@ -64,13 +64,13 @@ def word_wrap(text):
     if length > 0:
         yield " ".join(parts)
 
-def transliterate_text(text, macro_start, is_pokedex):
-    text = latin2shaw.latin2shaw(text)
+def transliterate_text(paragraph):
+    text = latin2shaw.latin2shaw(" ".join(paragraph.lines))
 
     for line_num, line in enumerate(word_wrap(text)):
         if line_num == 0:
-            macro = macro_start
-        elif is_pokedex:
+            macro = paragraph.macro_start
+        elif paragraph.is_pokedex:
             macro = "next"
         elif line_num == 1:
             macro = "line"
@@ -84,38 +84,8 @@ try:
 except FileExistsError:
     pass
 
-in_text = False
-parts = []
-macro_start = None
-is_pokedex = False
-
-def flush_paragraph():
-    global in_text, parts, macro_start, is_pokedex
-
-    if in_text:
-        transliterate_text(" ".join(parts), macro_start, is_pokedex)
-        in_text = False
-        parts.clear()
-
-for line in sys.stdin:
-    line = line.rstrip()
-
-    md = pokemon.TEXT_RE.match(line)
-
-    if in_text:
-        if md is None:
-            flush_paragraph()
-            print(line)
-        else:
-            if md.group("macro") == "next":
-                is_pokedex = True
-            parts.append(md.group("text"))
-    elif md is None:
-        print(line)
+for part in pokemon.parse_lines(sys.stdin):
+    if isinstance(part, pokemon.Paragraph):
+        transliterate_text(part)
     else:
-        macro_start = md.group("macro")
-        is_pokedex = macro_start == "page"
-        parts.append(md.group("text"))
-        in_text = True
-        
-flush_paragraph()
+        print(part)
