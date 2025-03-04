@@ -10,6 +10,9 @@ REPLACEMENTS = [
     (re.compile(r'#·?𐑥𐑳𐑯𐑛𐑱\b'), "#𐑥𐑪𐑯"), # latin2shaw translates MON as monday
     (re.compile(r'#·𐑛𐑰𐑧𐑒𐑕⚠️'), "#𐑛𐑧𐑒𐑕"), # POKéDEX
     (re.compile(r'VIRIDIAN✢'), "·𐑝𐑦𐑮𐑦𐑛𐑾𐑯"),
+    # Get rid of the WORD JOINER character that latin2shaw adds after
+    # the accroring
+    (re.compile(r'⸰\u2060'), "⸰"),
 
     (re.compile(r'&lt;𐑐𐑤𐑱𐑼&gt;'), "<PLAYER>"),
     (re.compile(r'&lt;𐑮𐑲𐑝𐑩𐑤&gt;'), "<RIVAL>"),
