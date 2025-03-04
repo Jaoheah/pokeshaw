@@ -185,7 +185,7 @@ _OaksLabRivalFedUpWithWaitingText::
 
 _OaksLabOakChooseMonText::
 	text "·𐑴𐑒: <RIVAL>? 𐑤𐑧𐑑"
-	line "𐑥𐑰 𐑔𐑦𐑙𐑒…"
+	line "𐑥𐑰 𐑔𐑦𐑙𐑒..."
 
 	para "𐑴, 𐑞𐑨𐑑𐑕 𐑮𐑲𐑑, 𐑲"
 	line "𐑑𐑴𐑤𐑛 𐑿 𐑑 𐑒𐑳𐑥!"
