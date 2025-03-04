@@ -9,7 +9,7 @@ import pokemon
 REPLACEMENTS = [
     (re.compile(r'#·?𐑥𐑳𐑯𐑛𐑱\b'), "#𐑥𐑪𐑯"), # latin2shaw translates MON as monday
     (re.compile(r'#·𐑛𐑰𐑧𐑒𐑕⚠️'), "#𐑛𐑧𐑒𐑕"), # POKéDEX
-    (re.compile(r'VIRIDIAN✢'), "·𐑝𐑦𐑮𐑦𐑛𐑾𐑯"),
+    (re.compile(r'\bVIRIDIAN✢'), "·𐑝𐑦𐑮𐑦𐑛𐑾𐑯"),
     # Get rid of the WORD JOINER character that latin2shaw adds after
     # the accroring
     (re.compile(r'⸰\u2060'), "⸰"),
@@ -42,22 +42,17 @@ def extract_pokemon_names():
     return names
 
 for shavian, latin in extract_pokemon_names().items():
-    REPLACEMENTS.append((re.compile(re.escape(latin) + "(✢|\b)"), shavian))
-
-def replace_word(word):
-    for regex, replacement in REPLACEMENTS:
-        md = regex.match(word)
-
-        if md is not None:
-            return replacement + word[md.end():]
-
-    return word
+    REPLACEMENTS.append((re.compile(r'\b' +
+                                    re.escape(latin) +
+                                    r'(✢|\b)'), shavian))
 
 def transliterate_text(paragraph):
-    words = [replace_word(word) for word
-             in latin2shaw.latin2shaw(" ".join(paragraph.lines)).split()]
+    text = latin2shaw.latin2shaw(" ".join(paragraph.lines))
 
-    for line in pokemon.word_wrap(words, paragraph):
+    for regex, replacement in REPLACEMENTS:
+        text = regex.sub(replacement, text)
+
+    for line in pokemon.word_wrap(text.split(), paragraph):
         print(line)
 
 try:
