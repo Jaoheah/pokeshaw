@@ -1,123 +1,118 @@
 _ViridianForestYoungster1Text::
-	text "I came here with"
-	line "some friends!"
+	text "𐑲 𐑒𐑱𐑥 𐑣𐑽 𐑢𐑦𐑞 𐑕𐑳𐑥"
+	line "𐑓𐑮𐑧𐑯𐑛𐑟!"
 
-	para "They're out for"
-	line "#MON fights!"
+	para "𐑞𐑱𐑼 𐑬𐑑 𐑓 #𐑥𐑪𐑯"
+	line "𐑓𐑲𐑑𐑕!"
 	done
 
 _ViridianForestYoungster2BattleText::
-	text "Hey! You have"
-	line "#MON! Come on!"
-	cont "Let's battle'em!"
+	text "𐑣𐑱! 𐑿 𐑣𐑨𐑝 #𐑥𐑪𐑯!"
+	line "𐑒𐑳𐑥 𐑪𐑯! 𐑤𐑧𐑑𐑕"
+	cont "𐑚𐑨𐑑𐑩𐑤'𐑩𐑥!"
 	done
 
 _ViridianForestYoungster2EndBattleText::
-	text "No!"
-	line "CATERPIE can't"
-	cont "cut it!"
+	text "𐑯𐑴!"
+	line "·𐑒𐑨𐑑𐑼𐑐𐑦 𐑒𐑭𐑯𐑑 𐑒𐑳𐑑"
+	cont "𐑦𐑑!"
 	prompt
 
 _ViridianForestYoungster2AfterBattleText::
-	text "Ssh! You'll scare"
-	line "the bugs away!"
+	text "𐑖~! 𐑿𐑤 𐑕𐑒𐑺 𐑞 𐑚𐑳𐑜𐑟"
+	line "𐑩𐑢𐑱!"
 	done
 
 _ViridianForestYoungster3BattleText::
-	text "Yo! You can't jam"
-	line "out if you're a"
-	cont "#MON trainer!"
+	text "𐑘𐑴! 𐑿 𐑒𐑭𐑯𐑑 𐑡𐑨𐑥 𐑬𐑑 𐑦𐑓"
+	line "𐑿𐑼 𐑩 #𐑥𐑪𐑯"
+	cont "𐑑𐑮𐑱𐑯𐑼!"
 	done
 
 _ViridianForestYoungster3EndBattleText::
-	text "Huh?"
-	line "I ran out of"
-	cont "#MON!"
+	text "𐑣𐑳?"
+	line "𐑲 𐑮𐑨𐑯 𐑬𐑑 𐑝"
+	cont "#𐑥𐑪𐑯!"
 	prompt
 
 _ViridianForestYoungster3AfterBattleText::
-	text "Darn! I'm going"
-	line "to catch some"
-	cont "stronger ones!"
+	text "𐑛𐑸𐑯! 𐑲𐑥 𐑜𐑴𐑦𐑙 𐑑 𐑒𐑨𐑗"
+	line "𐑕𐑳𐑥 𐑕𐑑𐑮𐑪𐑙𐑜𐑼 𐑢𐑳𐑯𐑟!"
 	done
 
 _ViridianForestYoungster4BattleText::
-	text "Hey, wait up!"
-	line "What's the hurry?"
+	text "𐑣𐑱, 𐑢𐑱𐑑 𐑳𐑐! 𐑢𐑪𐑑𐑕 𐑞"
+	line "𐑣𐑳𐑮𐑦?"
 	done
 
 _ViridianForestYoungster4EndBattleText::
-	text "I"
-	line "give! You're good"
-	cont "at this!"
+	text "𐑲"
+	line "𐑜𐑦𐑝! 𐑿𐑼 𐑜𐑫𐑛 𐑨𐑑"
+	cont "𐑞𐑦𐑕!"
 	prompt
 
 _ViridianForestYoungster4AfterBattleText::
-	text "Sometimes, you"
-	line "can find stuff on"
-	cont "the ground!"
+	text "𐑕𐑳𐑥𐑑𐑲𐑥𐑟, 𐑿 𐑒𐑨𐑯"
+	line "𐑓𐑲𐑯𐑛 𐑕𐑑𐑳𐑓 𐑪𐑯 𐑞"
+	cont "𐑜𐑮𐑬𐑯𐑛!"
 
-	para "I'm looking for"
-	line "the stuff I"
-	cont "dropped!"
+	para "𐑲𐑥 𐑤𐑫𐑒𐑦𐑙 𐑓 𐑞 𐑕𐑑𐑳𐑓 𐑲"
+	line "𐑛𐑮𐑪𐑐𐑑!"
 	done
 
 _ViridianForestYoungster5Text::
-	text "I ran out of #"
-	line "BALLs to catch"
-	cont "#MON with!"
+	text "𐑲 𐑮𐑨𐑯 𐑬𐑑 𐑝 #"
+	line "𐑚𐑷𐑤𐑟 𐑑 𐑒𐑨𐑗"
+	cont "#𐑥𐑪𐑯 𐑢𐑦𐑞!"
 
-	para "You should carry"
-	line "extras!"
+	para "𐑿 𐑖𐑫𐑛 𐑒𐑨𐑮𐑦"
+	line "𐑧𐑒𐑕𐑑𐑮𐑩𐑟!"
 	done
 
 _ViridianForestTrainerTips1Text::
-	text "TRAINER TIPS"
+	text "𐑑𐑮𐑱𐑯𐑼 𐑑𐑦𐑐𐑕"
 
-	para "If you want to"
-	line "avoid battles,"
-	cont "stay away from"
-	cont "grassy areas!"
+	para "𐑦𐑓 𐑿 𐑢𐑪𐑯𐑑 𐑑 𐑩𐑝𐑶𐑛"
+	line "𐑚𐑨𐑑𐑩𐑤𐑟, 𐑕𐑑𐑱 𐑩𐑢𐑱"
+	cont "𐑓𐑮𐑪𐑥 𐑜𐑮𐑭𐑕𐑦 𐑺𐑾𐑟!"
 	done
 
 _ViridianForestUseAntidoteSignText::
-	text "For poison, use"
-	line "ANTIDOTE! Get it"
-	cont "at #MON MARTs!"
+	text "𐑓 𐑐𐑶𐑟𐑩𐑯, 𐑿𐑟"
+	line "«𐑨𐑯𐑑𐑦𐑛𐑴𐑑»! 𐑜𐑧𐑑 𐑦𐑑"
+	cont "𐑨𐑑 #𐑥𐑪𐑯 𐑥𐑸𐑑𐑕!"
 	done
 
 _ViridianForestTrainerTips2Text::
-	text "TRAINER TIPS"
+	text "𐑑𐑮𐑱𐑯𐑼 𐑑𐑦𐑐𐑕"
 
-	para "Contact PROF.OAK"
-	line "via PC to get"
-	cont "your #DEX"
-	cont "evaluated!"
+	para "𐑒𐑪𐑯𐑑𐑨𐑒𐑑 ·𐑐𐑮𐑪𐑓.𐑴𐑒"
+	line "𐑝𐑲𐑩 𐑐𐑰𐑕𐑰 𐑑 𐑜𐑧𐑑 𐑘𐑹"
+	cont "#𐑛𐑧𐑒𐑕"
+	cont "𐑦𐑝𐑨𐑤𐑘𐑫𐑱𐑑𐑩𐑛!"
 	done
 
 _ViridianForestTrainerTips3Text::
-	text "TRAINER TIPS"
+	text "𐑑𐑮𐑱𐑯𐑼 𐑑𐑦𐑐𐑕"
 
-	para "No stealing of"
-	line "#MON from"
-	cont "other trainers!"
-	cont "Catch only wild"
-	cont "#MON!"
+	para "𐑯𐑴 𐑕𐑑𐑰𐑤𐑦𐑙 𐑝 #𐑥𐑪𐑯"
+	line "𐑓𐑮𐑪𐑥 𐑳𐑞𐑼 𐑑𐑮𐑱𐑯𐑼𐑟!"
+	cont "𐑒𐑨𐑗 𐑴𐑯𐑤𐑦 𐑢𐑲𐑤𐑛"
+	cont "#𐑥𐑪𐑯!"
 	done
 
 _ViridianForestTrainerTips4Text::
-	text "TRAINER TIPS"
+	text "𐑑𐑮𐑱𐑯𐑼 𐑑𐑦𐑐𐑕"
 
-	para "Weaken #MON"
-	line "before attempting"
-	cont "capture!"
+	para "𐑢𐑰𐑒𐑩𐑯 #𐑥𐑪𐑯 𐑚𐑦𐑓𐑹"
+	line "𐑩𐑑𐑧𐑥𐑐𐑑𐑦𐑙 𐑒𐑨𐑐𐑗𐑼!"
 
-	para "When healthy,"
-	line "they may escape!"
+	para "𐑢𐑧𐑯 𐑣𐑧𐑤𐑔𐑦, 𐑞𐑱 𐑥𐑱"
+	line "𐑦𐑕𐑒𐑱𐑐!"
 	done
 
 _ViridianForestLeavingSignText::
-	text "LEAVING"
-	line "VIRIDIAN FOREST"
-	cont "PEWTER CITY AHEAD"
+	text "𐑤𐑰𐑝𐑦𐑙"
+	line "·𐑝𐑦𐑮𐑦𐑛𐑾𐑯 𐑓𐑪𐑮𐑦𐑕𐑑"
+	cont "·𐑐𐑿𐑑𐑼 𐑕𐑦𐑑𐑦 𐑩𐑣𐑧𐑛"
 	done
