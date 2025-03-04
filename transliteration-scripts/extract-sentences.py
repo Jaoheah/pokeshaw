@@ -14,6 +14,9 @@ REPLACEMENTS = [
     # the accroring
     (re.compile(r'⸰\u2060'), "⸰"),
     (re.compile(r'·𐑐𐑱𐑡𐑩𐑟\b'), "⸰𐑐𐑐"),
+    # Latin2shaw likes to replace ... with … but this gets mapped to
+    # three dots in the middle of the row in the Pokémon font.
+    (re.compile(r'…'), "..."),
 
     (re.compile(r'&lt;𐑐𐑤𐑱𐑼&gt;'), "<PLAYER>"),
     (re.compile(r'&lt;𐑮𐑲𐑝𐑩𐑤&gt;'), "<RIVAL>"),
