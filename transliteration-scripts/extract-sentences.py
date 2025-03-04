@@ -13,6 +13,7 @@ REPLACEMENTS = [
     # Get rid of the WORD JOINER character that latin2shaw adds after
     # the accroring
     (re.compile(r'⸰\u2060'), "⸰"),
+    (re.compile(r'·𐑐𐑱𐑡𐑩𐑟\b'), "⸰𐑐𐑐"),
 
     (re.compile(r'&lt;𐑐𐑤𐑱𐑼&gt;'), "<PLAYER>"),
     (re.compile(r'&lt;𐑮𐑲𐑝𐑩𐑤&gt;'), "<RIVAL>"),
