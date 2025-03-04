@@ -5,6 +5,7 @@ import os
 import re
 import sys
 import pokemon
+import tempfile
 
 REPLACEMENTS = [
     # latin2shaw translates MON as monday
@@ -60,13 +61,16 @@ def transliterate_text(paragraph):
     for line in pokemon.word_wrap(text.split(), paragraph):
         print(line)
 
-try:
-    os.symlink(os.path.dirname(latin2shaw.__file__), "static", True)
-except FileExistsError:
-    pass
+with tempfile.TemporaryDirectory() as dir:
+    os.chdir(dir)
 
-for part in pokemon.parse_lines(sys.stdin):
-    if isinstance(part, pokemon.Paragraph):
-        transliterate_text(part)
-    else:
-        print(part)
+    try:
+        os.symlink(os.path.dirname(latin2shaw.__file__), "static", True)
+    except FileExistsError:
+        pass
+
+    for part in pokemon.parse_lines(sys.stdin):
+        if isinstance(part, pokemon.Paragraph):
+            transliterate_text(part)
+        else:
+            print(part)
