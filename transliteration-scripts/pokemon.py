@@ -1,8 +1,8 @@
 import re
-from collections import namedtuple
 
 TEXT_RE = re.compile(r'^[\t ]*(?P<macro>text|next|page|line|cont|para) *'
                      r'"(?P<text>[^"]*)" *$')
+DONE_RE = re.compile(r'^[\t ]*done *$')
 MAX_LINE_LENGTH = 18
 
 # These sequences end up with a different length when assembled
@@ -49,7 +49,24 @@ def word_length(word):
 
     return sum(map(match_length, REPLACEMENT_LENGTHS_RE.finditer(word)))
 
-Paragraph = namedtuple('Paragraph', ['lines', 'macro_start', 'is_pokedex'])
+class Paragraph:
+    def __init__(self, lines, macro_start, is_pokedex, has_done):
+        self.lines = lines
+        self.macro_start = macro_start
+        self.is_pokedex = is_pokedex
+        self.has_done = has_done
+
+    def max_length(self, line_num, is_end):
+        # All of the pokedex lines, the first line of a paragraph and
+        # any line followed by “done” can use the full width. Any
+        # other lines will have one less character so that the game
+        # can draw the little continuation arrow.
+        if (line_num == 0 or
+            (self.has_done and is_end) or
+            self.is_pokedex):
+            return MAX_LINE_LENGTH
+        else:
+            return MAX_LINE_LENGTH - 1
 
 def parse_lines(lines):
     in_text = False
@@ -57,13 +74,15 @@ def parse_lines(lines):
     result = []
     macro_start = None
     is_pokedex = False
+    has_done = False
 
     def flush_paragraph():
-        nonlocal in_text, parts, result, macro_start, is_pokedex
+        nonlocal in_text, parts, result, macro_start, is_pokedex, has_done
 
         if in_text:
-            result.append(Paragraph(parts, macro_start, is_pokedex))
+            result.append(Paragraph(parts, macro_start, is_pokedex, has_done))
             in_text = False
+            has_done = False
             parts = []
 
     for line in lines:
@@ -73,6 +92,8 @@ def parse_lines(lines):
 
         if in_text:
             if md is None:
+                if DONE_RE.match(line):
+                    has_done = True
                 flush_paragraph()
                 result.append(line)
             else:
