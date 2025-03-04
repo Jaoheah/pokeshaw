@@ -124,6 +124,8 @@
 	charmap "[",         $9e
 	charmap "]",         $9f
 
+	charmap "~",         $c3
+
 	charmap "a",         $cb
 	charmap "b",         $cc
 	charmap "c",         $cd
