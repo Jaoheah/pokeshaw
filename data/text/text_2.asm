@@ -637,78 +637,77 @@ _LinkCableInfoText3::
 	prompt
 
 _ViridianSchoolBlackboardText1::
-	text "The blackboard"
-	line "describes #MON"
-	cont "STATUS changes"
-	cont "during battles."
+	text "𐑞 𐑚𐑤𐑨𐑒𐑚𐑹𐑛 𐑛𐑦𐑕𐑒𐑮𐑲𐑚𐑟"
+	line "#𐑥𐑪𐑯 𐑕𐑑𐑱𐑑𐑩𐑕"
+	cont "𐑗𐑱𐑯𐑡𐑩𐑟 𐑛𐑘𐑫𐑼𐑦𐑙"
+	cont "𐑚𐑨𐑑𐑩𐑤𐑟."
 	prompt
 
 _ViridianSchoolBlackboardText2::
-	text "Which heading do"
-	line "you want to read?"
+	text "𐑢𐑦𐑗 𐑣𐑧𐑛𐑦𐑙 𐑛𐑵 𐑿 𐑢𐑪𐑯𐑑"
+	line "𐑑 𐑮𐑰𐑛?"
 	done
 
 _ViridianBlackboardSleepText::
-	text "A #MON can't"
-	line "attack if it's"
-	cont "asleep!"
+	text "𐑩 #𐑥𐑪𐑯 𐑒𐑭𐑯𐑑 𐑩𐑑𐑨𐑒"
+	line "𐑦𐑓 𐑦𐑑𐑕 𐑩𐑕𐑤𐑰𐑐!"
 
-	para "#MON will stay"
-	line "asleep even after"
-	cont "battles."
+	para "#𐑥𐑪𐑯 𐑢𐑦𐑤 𐑕𐑑𐑱"
+	line "𐑩𐑕𐑤𐑰𐑐 𐑰𐑝𐑩𐑯 𐑭𐑓𐑑𐑼"
+	cont "𐑚𐑨𐑑𐑩𐑤𐑟."
 
-	para "Use AWAKENING to"
-	line "wake them up!"
+	para "𐑿𐑟 «𐑩𐑢𐑱𐑒𐑩𐑯𐑦𐑙» 𐑑 𐑢𐑱𐑒"
+	line "𐑞𐑧𐑥 𐑳𐑐!"
 	prompt
 
 _ViridianBlackboardPoisonText::
-	text "When poisoned, a"
-	line "#MON's health"
-	cont "steadily drops."
+	text "𐑢𐑧𐑯 𐑐𐑶𐑟𐑩𐑯𐑛, 𐑩"
+	line "#𐑥𐑪𐑯𐑟 𐑣𐑧𐑤𐑔"
+	cont "𐑕𐑑𐑧𐑛𐑦𐑤𐑦 𐑛𐑮𐑪𐑐𐑕."
 
-	para "Poison lingers"
-	line "after battles."
+	para "𐑐𐑶𐑟𐑩𐑯 𐑤𐑦𐑙𐑜𐑼𐑟 𐑭𐑓𐑑𐑼"
+	line "𐑚𐑨𐑑𐑩𐑤𐑟."
 
-	para "Use an ANTIDOTE"
-	line "to cure poison!"
+	para "𐑿𐑟 𐑩𐑯 «𐑨𐑯𐑑𐑦𐑛𐑴𐑑» 𐑑"
+	line "𐑒𐑘𐑫𐑼 𐑐𐑶𐑟𐑩𐑯!"
 	prompt
 
 _ViridianBlackboardPrlzText::
-	text "Paralysis could"
-	line "make #MON"
-	cont "moves misfire!"
+	text "𐑐𐑼𐑨𐑤𐑩𐑕𐑦𐑕 𐑒𐑫𐑛 𐑥𐑱𐑒"
+	line "#𐑥𐑪𐑯 𐑥𐑵𐑝𐑟"
+	cont "𐑥𐑦𐑕𐑓𐑲𐑼!"
 
-	para "Paralysis remains"
-	line "after battles."
+	para "𐑐𐑼𐑨𐑤𐑩𐑕𐑦𐑕 𐑮𐑦𐑥𐑱𐑯𐑟"
+	line "𐑭𐑓𐑑𐑼 𐑚𐑨𐑑𐑩𐑤𐑟."
 
-	para "Use PARLYZ HEAL"
-	line "for treatment!"
+	para "𐑿𐑕 «𐑐𐑨𐑮𐑩𐑤𐑲𐑟 𐑣𐑰𐑤» 𐑓"
+	line "𐑑𐑮𐑰𐑑𐑥𐑩𐑯𐑑!"
 	prompt
 
 _ViridianBlackboardBurnText::
-	text "A burn reduces"
-	line "power and speed."
-	cont "It also causes"
-	cont "ongoing damage."
+	text "𐑩 𐑚𐑻𐑯 𐑮𐑦𐑛𐑿𐑕𐑩𐑟 𐑐𐑬𐑼"
+	line "𐑯 𐑕𐑐𐑰𐑛. 𐑦𐑑 𐑷𐑤𐑕𐑴"
+	cont "𐑒𐑷𐑟𐑩𐑟 𐑪𐑯𐑜𐑴𐑦𐑙"
+	cont "𐑛𐑨𐑥𐑦𐑡."
 
-	para "Burns remain"
-	line "after battles."
+	para "𐑚𐑻𐑯𐑟 𐑮𐑦𐑥𐑱𐑯 𐑭𐑓𐑑𐑼"
+	line "𐑚𐑨𐑑𐑩𐑤𐑟."
 
-	para "Use BURN HEAL to"
-	line "cure a burn!"
+	para "𐑿𐑟 «𐑚𐑻𐑯 𐑣𐑰𐑤» 𐑑"
+	line "𐑒𐑘𐑫𐑼 𐑩 𐑚𐑻𐑯!"
 	prompt
 
 _ViridianBlackboardFrozenText::
-	text "If frozen, a"
-	line "#MON becomes"
-	cont "totally immobile!"
+	text "𐑦𐑓 𐑓𐑮𐑴𐑟𐑩𐑯, 𐑩"
+	line "#𐑥𐑪𐑯 𐑚𐑦𐑒𐑳𐑥𐑟"
+	cont "𐑑𐑴𐑑𐑩𐑤𐑦 𐑦𐑥𐑴𐑚𐑲𐑤!"
 
-	para "It stays frozen"
-	line "even after the"
-	cont "battle ends."
+	para "𐑦𐑑 𐑕𐑑𐑱𐑟 𐑓𐑮𐑴𐑟𐑩𐑯 𐑰𐑝𐑩𐑯"
+	line "𐑭𐑓𐑑𐑼 𐑞 𐑚𐑨𐑑𐑩𐑤"
+	cont "𐑧𐑯𐑛𐑟."
 
-	para "Use ICE HEAL to"
-	line "thaw out #MON!"
+	para "𐑿𐑕 «𐑲𐑕 𐑣𐑰𐑤» 𐑑 𐑔𐑷"
+	line "𐑬𐑑 #𐑥𐑪𐑯!"
 	prompt
 
 _VermilionGymTrashText::
