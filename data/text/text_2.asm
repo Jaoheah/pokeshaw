@@ -590,15 +590,15 @@ _Route15UpstairsBinocularsText::
 	done
 
 _AerodactylFossilText::
-	text "AERODACTYL Fossil"
-	line "A primitive and"
-	cont "rare #MON."
+	text "·𐑺𐑴𐑛𐑨𐑒𐑑𐑤 𐑓𐑪𐑕𐑩𐑤"
+	line "𐑩 𐑐𐑮𐑦𐑥𐑦𐑑𐑦𐑝 𐑯 𐑮𐑺"
+	cont "#𐑥𐑪𐑯."
 	done
 
 _KabutopsFossilText::
-	text "KABUTOPS Fossil"
-	line "A primitive and"
-	cont "rare #MON."
+	text "·𐑒𐑩𐑚𐑵𐑑𐑪𐑐𐑕 𐑓𐑪𐑕𐑩𐑤"
+	line "𐑩 𐑐𐑮𐑦𐑥𐑦𐑑𐑦𐑝 𐑯 𐑮𐑺"
+	cont "#𐑥𐑪𐑯."
 	done
 
 _LinkCableHelpText1::
