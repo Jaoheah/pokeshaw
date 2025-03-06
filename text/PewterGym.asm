@@ -1,18 +1,16 @@
 _PewterGymBrockPreBattleText::
-	text "I'm BROCK!"
-	line "I'm PEWTER's GYM"
-	cont "LEADER!"
+	text "𐑲𐑥 ·𐑚𐑮𐑪𐑒! 𐑲𐑥"
+	line "·𐑐𐑿𐑑𐑼𐑟 𐑡𐑦𐑥 𐑤𐑰𐑛𐑼!"
 
-	para "I believe in rock"
-	line "hard defense and"
-	cont "determination!"
+	para "𐑲 𐑚𐑦𐑤𐑰𐑝 𐑦𐑯 𐑮𐑪𐑒 𐑣𐑸𐑛"
+	line "𐑛𐑦𐑓𐑧𐑯𐑕 𐑯"
+	cont "𐑛𐑦𐑑𐑻𐑥𐑦𐑯𐑱𐑖𐑩𐑯!"
 
-	para "That's why my"
-	line "#MON are all"
-	cont "the rock-type!"
+	para "𐑞𐑨𐑑𐑕 𐑢𐑲 𐑥𐑲 #𐑥𐑪𐑯"
+	line "𐑸 𐑷𐑤 𐑞 𐑮𐑪𐑒-𐑑𐑲𐑐!"
 
-	para "Do you still want"
-	line "to challenge me?"
-	cont "Fine then! Show"
-	cont "me your best!"
+	para "𐑛𐑵 𐑿 𐑕𐑑𐑦𐑤 𐑢𐑪𐑯𐑑 𐑑"
+	line "𐑗𐑨𐑤𐑩𐑯𐑡 𐑥𐑰? 𐑓𐑲𐑯"
+	cont "𐑞𐑧𐑯! 𐑖𐑴 𐑥𐑰 𐑘𐑹"
+	cont "𐑚𐑧𐑕𐑑!"
 	done
