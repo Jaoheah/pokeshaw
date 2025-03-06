@@ -74,9 +74,9 @@ SafariZoneBattleMenuText:
 	next "THROW ROCK  RUN@"
 
 SwitchStatsCancelText:
-	db   "SWITCH"
-	next "STATS"
-	next "CANCEL@"
+	db   "𐑕𐑢𐑦𐑗"
+	next "𐑕𐑑𐑨𐑑𐑕"
+	next "𐑒𐑨𐑯𐑕𐑩𐑤@"
 
 JapaneseAhText:
 	db "アッ！@"
