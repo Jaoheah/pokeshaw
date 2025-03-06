@@ -379,6 +379,7 @@ GetSavedEndBattleTextPointer::
 	ret
 
 TrainerEndBattleText::
+	text "·@"
 	text_far _TrainerNameText
 	text_asm
 	call GetSavedEndBattleTextPointer
