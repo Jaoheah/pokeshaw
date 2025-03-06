@@ -2908,7 +2908,7 @@ DisabledText:
 	db "disabled!@"
 
 TypeText:
-	db "TYPE@"
+	db "𐑑𐑲𐑐@"
 
 SelectEnemyMove:
 	ld a, [wLinkState]
