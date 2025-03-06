@@ -20,6 +20,8 @@ REPLACEMENTS = [
     # three dots in the middle of the row in the Pokémon font.
     (re.compile(r'…'), "..."),
     (re.compile(r'\bPROF\.OAK\b'), "·𐑐𐑮𐑪𐑓.𐑴𐑒"),
+    (re.compile(r'\bBROCK✢𐑟\b'), "·𐑚𐑮𐑪𐑒𐑕"),
+    (re.compile(r'\bBROCK✢'), "·𐑚𐑮𐑪𐑒"),
 
     (re.compile(r'&lt;𐑐𐑤𐑱𐑼&gt;'), "<PLAYER>"),
     (re.compile(r'&lt;𐑮𐑲𐑝𐑩𐑤&gt;'), "<RIVAL>"),
