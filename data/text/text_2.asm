@@ -871,7 +871,7 @@ _MoneyForWinningText::
 
 _TrainerDefeatedText::
 	text "<PLAYER> 𐑛𐑦𐑓𐑰𐑑𐑩𐑛"
-	line "@"
+	line "·@"
 	text_ram wTrainerName
 	text "!"
 	prompt
@@ -906,6 +906,7 @@ _LinkBattleLostText::
 	prompt
 
 _TrainerAboutToUseText::
+	text "·@"
 	text_ram wTrainerName
 	text " 𐑦𐑟"
 	line "𐑩𐑚𐑬𐑑 𐑑 𐑿𐑟"
@@ -918,6 +919,7 @@ _TrainerAboutToUseText::
 	done
 
 _TrainerSentOutText::
+	text "·@"
 	text_ram wTrainerName
 	text " 𐑕𐑧𐑯𐑑 "
 	line "𐑬𐑑 @"
@@ -1248,6 +1250,7 @@ _EnemyAppearedText::
 	prompt
 
 _TrainerWantsToFightText::
+	text "·@"
 	text_ram wTrainerName
 	text " 𐑢𐑪𐑯𐑑𐑕"
 	line "𐑑 𐑓𐑲𐑑!"
