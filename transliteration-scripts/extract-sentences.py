@@ -25,6 +25,7 @@ REPLACEMENTS = [
     (re.compile(r'\bEXP✢'), "𐑧𐑒𐑕𐑐𐑰"),
     # Latin2shaw seems to mess up the yen symbol for some reason
     (re.compile(r'\bY='), "¥"),
+    (re.compile(r'\bTM(?=[0-9])'), "⸰𐑑𐑥"),
 
     (re.compile(r'&lt;𐑐𐑤𐑱𐑼&gt;'), "<PLAYER>"),
     (re.compile(r'&lt;𐑮𐑲𐑝𐑩𐑤&gt;'), "<RIVAL>"),
