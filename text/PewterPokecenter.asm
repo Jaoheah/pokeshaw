@@ -1,14 +1,14 @@
 _PewterPokecenterGentlemanText::
-	text "What!?"
+	text "𐑢𐑪𐑑!?"
 
-	para "TEAM ROCKET is"
-	line "at MT.MOON? Huh?"
-	cont "I'm on the phone!"
+	para "·𐑑𐑰𐑥 𐑮𐑪𐑒𐑩𐑑 𐑦𐑟 𐑨𐑑"
+	line "·𐑥𐑑.𐑥𐑵𐑯? 𐑣𐑳? 𐑲𐑥"
+	cont "𐑪𐑯 𐑞 𐑓𐑴𐑯!"
 
-	para "Scram!"
+	para "𐑕𐑒𐑮𐑨𐑥!"
 	done
 
 _PewterPokecenterJigglypuffText::
-	text "JIGGLYPUFF: Puu"
-	line "pupuu!"
+	text "𐑡𐑦𐑜𐑤𐑦𐑐𐑳𐑓: 𐑐𐑳~"
+	line "𐑐𐑳𐑐𐑳~~!"
 	done

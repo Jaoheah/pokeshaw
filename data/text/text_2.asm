@@ -162,14 +162,14 @@ _ViridianCityPokecenterGuyText::
 	done
 
 _PewterCityPokecenterGuyText::
-	text "Yawn!"
+	text "𐑘𐑷𐑯!"
 
-	para "When JIGGLYPUFF"
-	line "sings, #MON"
-	cont "get drowsy..."
+	para "𐑢𐑧𐑯 ·𐑡𐑦𐑜𐑤𐑦𐑐𐑳𐑓 𐑕𐑦𐑙𐑟,"
+	line "#𐑥𐑪𐑯 𐑜𐑧𐑑"
+	cont "𐑛𐑮𐑬𐑟𐑦..."
 
-	para "...Me too..."
-	line "Snore..."
+	para "...𐑥𐑰 𐑑𐑵..."
+	line "𐑕𐑯𐑹..."
 	done
 
 _CeruleanPokecenterGuyText::
