@@ -1350,83 +1350,82 @@ _WhichFloorText::
 	done
 
 _PartyMenuNormalText::
-	text "Choose a #MON."
+	text "𐑗𐑵𐑟 𐑩 #𐑥𐑪𐑯."
 	done
 
 _PartyMenuItemUseText::
-	text "Use item on which"
-	line "#MON?"
+	text "𐑿𐑟 𐑲𐑑𐑩𐑥 𐑪𐑯 𐑢𐑦𐑗"
+	line "#𐑥𐑪𐑯?"
 	done
 
 _PartyMenuBattleText::
-	text "Bring out which"
-	line "#MON?"
+	text "𐑚𐑮𐑦𐑙 𐑬𐑑 𐑢𐑦𐑗"
+	line "#𐑥𐑪𐑯?"
 	done
 
 _PartyMenuUseTMText::
-	text "Use TM on which"
-	line "#MON?"
+	text "𐑿𐑕 ⸰𐑑𐑥 𐑪𐑯 𐑢𐑦𐑗"
+	line "#𐑥𐑪𐑯?"
 	done
 
 _PartyMenuSwapMonText::
-	text "Move #MON"
-	line "where?"
+	text "𐑥𐑵𐑝 #𐑥𐑪𐑯 𐑢𐑺?"
 	done
 
 _PotionText::
 	text_ram wNameBuffer
 	text_start
-	line "recovered by @"
+	line "𐑮𐑦𐑒𐑳𐑝𐑼𐑛 𐑚𐑲 @"
 	text_decimal wHPBarHPDifference, 2, 3
 	text "!"
 	done
 
 _AntidoteText::
 	text_ram wNameBuffer
-	text " was"
-	line "cured of poison!"
+	text " 𐑢𐑪𐑟"
+        line "𐑒𐑘𐑫𐑼𐑛 𐑝 𐑐𐑶𐑟𐑩𐑯!"
 	done
 
 _ParlyzHealText::
 	text_ram wNameBuffer
-	text "'s"
-	line "rid of paralysis!"
+	text "<POS>"
+	line "𐑮𐑦𐑛 𐑝 𐑐𐑼𐑨𐑤𐑩𐑕𐑦𐑕!"
 	done
 
 _BurnHealText::
 	text_ram wNameBuffer
-	text "'s"
-	line "burn was healed!"
+	text "<POS>"
+	line "𐑚𐑻𐑯 𐑢𐑪𐑟 𐑣𐑰𐑤𐑛!"
 	done
 
 _IceHealText::
 	text_ram wNameBuffer
-	text " was"
-	line "defrosted!"
+	text " 𐑢𐑪𐑟"
+	line "𐑛𐑰𐑓𐑮𐑪𐑕𐑑𐑩𐑛!"
 	done
 
 _AwakeningText::
 	text_ram wNameBuffer
 	text_start
-	line "woke up!"
+	line "𐑢𐑴𐑒 𐑳𐑐!"
 	done
 
 _FullHealText::
 	text_ram wNameBuffer
-	text "'s"
-	line "health returned!"
+	text "<POS>"
+	line "𐑣𐑧𐑤𐑔 𐑮𐑦𐑑𐑻𐑯𐑛!"
 	done
 
 _ReviveText::
 	text_ram wNameBuffer
 	text_start
-	line "is revitalized!"
+	line "𐑦𐑟 𐑮𐑰𐑝𐑲𐑑𐑩𐑤𐑲𐑟𐑛!"
 	done
 
 _RareCandyText::
 	text_ram wNameBuffer
-	text " grew"
-	line "to level @"
+	text " 𐑜𐑮𐑵"
+	line "𐑑 𐑤𐑧𐑝𐑩𐑤 @"
 	text_decimal wCurEnemyLevel, 1, 3
 	text "!@"
 	text_end
