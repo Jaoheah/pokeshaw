@@ -14,7 +14,7 @@ _CardKeyFailText::
 	done
 
 _TrainerNameText::
-	text_ram wNameBuffer
+	text_ram wTrainerName
 	text ": @"
 	text_end
 
