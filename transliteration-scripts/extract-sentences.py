@@ -29,6 +29,7 @@ REPLACEMENTS = [
 
     (re.compile(r'&lt;𐑐𐑤𐑱𐑼&gt;'), "<PLAYER>"),
     (re.compile(r'&lt;𐑮𐑲𐑝𐑩𐑤&gt;'), "<RIVAL>"),
+    (re.compile(r'&lt;𐑑𐑸𐑜𐑩𐑑&gt;'), "<TARGET>"),
 ]
 
 # Add replacements for the Pokémon names by automatically extracting
