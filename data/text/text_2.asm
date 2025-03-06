@@ -827,50 +827,50 @@ _OutOfSafariBallsText::
 	prompt
 
 _WildRanText::
-	text "Wild @"
+	text "𐑢𐑲𐑤𐑛 @"
 	text_ram wEnemyMonNick
 	text_start
-	line "ran!"
+	line "𐑮𐑨𐑯!"
 	prompt
 
 _EnemyRanText::
-	text "Enemy @"
+	text "𐑧𐑯𐑩𐑥𐑦 @"
 	text_ram wEnemyMonNick
 	text_start
-	line "ran!"
+	line "𐑮𐑨𐑯!"
 	prompt
 
 _HurtByPoisonText::
 	text "<USER><POS>"
-	line "hurt by poison!"
+	line "𐑣𐑻𐑑 𐑚𐑲 𐑐𐑶𐑟𐑩𐑯!"
 	prompt
 
 _HurtByBurnText::
 	text "<USER><POS>"
-	line "hurt by the burn!"
+	line "𐑣𐑻𐑑 𐑚𐑲 𐑞 𐑚𐑻𐑯!"
 	prompt
 
 _HurtByLeechSeedText::
-	text "LEECH SEED saps"
+	text "𐑤𐑰𐑗 𐑕𐑰𐑛 𐑕𐑨𐑐𐑕"
 	line "<USER>!"
 	prompt
 
 _EnemyMonFaintedText::
-	text "Enemy @"
+	text "𐑧𐑯𐑩𐑥𐑦 @"
 	text_ram wEnemyMonNick
 	text_start
-	line "fainted!"
+	line "𐑓𐑱𐑯𐑑𐑩𐑛!"
 	prompt
 
 _MoneyForWinningText::
-	text "<PLAYER> got ¥@"
+	text "<PLAYER> 𐑜𐑪𐑑 ¥@"
 	text_bcd wAmountMoneyWon, 3 | LEADING_ZEROES | LEFT_ALIGN
 	text_start
-	line "for winning!"
+	line "𐑓 𐑢𐑦𐑯𐑦𐑙!"
 	prompt
 
 _TrainerDefeatedText::
-	text "<PLAYER> defeated"
+	text "<PLAYER> 𐑛𐑦𐑓𐑰𐑑𐑩𐑛"
 	line "@"
 	text_ram wTrainerName
 	text "!"
@@ -879,11 +879,11 @@ _TrainerDefeatedText::
 _PlayerMonFaintedText::
 	text_ram wBattleMonNick
 	text_start
-	line "fainted!"
+	line "𐑓𐑱𐑯𐑑𐑩𐑛!"
 	prompt
 
 _UseNextMonText::
-	text "Use next #MON?"
+	text "𐑿𐑟 𐑯𐑧𐑒𐑕𐑑 #𐑥𐑪𐑯?"
 	done
 
 _Rival1WinText::
@@ -892,11 +892,10 @@ _Rival1WinText::
 	prompt
 
 _PlayerBlackedOutText2::
-	text "<PLAYER> is out of"
-	line "useable #MON!"
+	text "<PLAYER> 𐑦𐑟 𐑬𐑑 𐑝"
+	line "𐑿𐑟𐑩𐑚𐑩𐑤 #𐑥𐑪𐑯!"
 
-	para "<PLAYER> blacked"
-	line "out!"
+	para "<PLAYER> 𐑚𐑤𐑨𐑒𐑑 𐑬𐑑!"
 	prompt
 
 _LinkBattleLostText::
@@ -908,81 +907,79 @@ _LinkBattleLostText::
 
 _TrainerAboutToUseText::
 	text_ram wTrainerName
-	text " is"
-	line "about to use"
+	text " 𐑦𐑟"
+	line "𐑩𐑚𐑬𐑑 𐑑 𐑿𐑟"
 	cont "@"
 	text_ram wEnemyMonNick
 	text "!"
 
-	para "Will <PLAYER>"
-	line "change #MON?"
+	para "𐑢𐑦𐑤 <PLAYER> 𐑗𐑱𐑯𐑡"
+	line "#𐑥𐑪𐑯?"
 	done
 
 _TrainerSentOutText::
 	text_ram wTrainerName
-	text " sent"
-	line "out @"
+	text " 𐑕𐑧𐑯𐑑 "
+	line "𐑬𐑑 @"
 	text_ram wEnemyMonNick
 	text "!"
 	done
 
 _NoWillText::
-	text "There's no will"
-	line "to fight!"
+	text "𐑞𐑺𐑟 𐑯𐑴 𐑢𐑦𐑤 𐑑 𐑓𐑲𐑑!"
 	prompt
 
 _CantEscapeText::
-	text "Can't escape!"
+	text "𐑒𐑭𐑯𐑑 𐑦𐑕𐑒𐑱𐑐!"
 	prompt
 
 _NoRunningText::
-	text "No! There's no"
-	line "running from a"
-	cont "trainer battle!"
+	text "𐑯𐑴! 𐑞𐑺𐑟 𐑯𐑴 𐑮𐑳𐑯𐑦𐑙"
+	line "𐑓𐑮𐑪𐑥 𐑩 𐑑𐑮𐑱𐑯𐑼"
+	cont "𐑚𐑨𐑑𐑩𐑤!"
 	prompt
 
 _GotAwayText::
-	text "Got away safely!"
+	text "𐑜𐑪𐑑 𐑩𐑢𐑱 𐑕𐑱𐑓𐑤𐑦!"
 	prompt
 
 _ItemsCantBeUsedHereText::
-	text "Items can't be"
-	line "used here."
+	text "𐑲𐑑𐑩𐑥𐑟 𐑒𐑭𐑯𐑑 𐑚𐑰 𐑿𐑟𐑛"
+	line "𐑣𐑽."
 	prompt
 
 _AlreadyOutText::
 	text_ram wBattleMonNick
-	text " is"
-	line "already out!"
+	text " 𐑦𐑟"
+	line "𐑷𐑤𐑮𐑧𐑛𐑦 𐑬𐑑!"
 	prompt
 
 _MoveNoPPText::
-	text "No PP left for"
-	line "this move!"
+	text "𐑯𐑴 ⸰𐑐𐑐 𐑤𐑧𐑓𐑑 𐑓 𐑞𐑦𐑕"
+	line "𐑥𐑵𐑝!"
 	prompt
 
 _MoveDisabledText::
-	text "The move is"
-	line "disabled!"
+	text "𐑞 𐑥𐑵𐑝 𐑦𐑟 𐑛𐑦𐑕𐑱𐑚𐑩𐑤𐑛!"
 	prompt
 
 _NoMovesLeftText::
 	text_ram wBattleMonNick
-	text " has no"
-	line "moves left!"
+	text " 𐑣𐑨𐑟 𐑯𐑴"
+	line "𐑥𐑵𐑝𐑟 𐑤𐑧𐑓𐑑!"
 	done
 
 _MultiHitText::
-	text "Hit the enemy"
+	text "𐑣𐑦𐑑 𐑞 𐑧𐑯𐑩𐑥𐑦"
 	line "@"
 	text_decimal wPlayerNumHits, 1, 1
-	text " times!"
+	text " 𐑑𐑲𐑥𐑟!"
 	prompt
 
 _ScaredText::
 	text_ram wBattleMonNick
-	text " is too"
-	line "scared to move!"
+	text " 𐑦𐑟 𐑑𐑵"
+	line "𐑕𐑒𐑺𐑛 𐑑 𐑥𐑵𐑝!"
 	prompt
 
 _GetOutText::
@@ -992,85 +989,85 @@ _GetOutText::
 
 _FastAsleepText::
 	text "<USER>"
-	line "is fast asleep!"
+	line "𐑦𐑟 𐑓𐑭𐑕𐑑 𐑩𐑕𐑤𐑰𐑐!"
 	prompt
 
 _WokeUpText::
 	text "<USER>"
-	line "woke up!"
+	line "𐑢𐑴𐑒 𐑳𐑐!"
 	prompt
 
 _IsFrozenText::
 	text "<USER>"
-	line "is frozen solid!"
+	line "𐑦𐑟 𐑓𐑮𐑴𐑟𐑩𐑯 𐑕𐑪𐑤𐑦𐑛!"
 	prompt
 
 _FullyParalyzedText::
 	text "<USER><POS>"
-	line "fully paralyzed!"
+	line "𐑓𐑫𐑤𐑦 𐑐𐑨𐑮𐑩𐑤𐑲𐑟𐑛!"
 	prompt
 
 _FlinchedText::
 	text "<USER>"
-	line "flinched!"
+	line "𐑓𐑤𐑦𐑯𐑗𐑑!"
 	prompt
 
 _MustRechargeText::
 	text "<USER>"
-	line "must recharge!"
+	line "𐑥𐑳𐑕𐑑 𐑮𐑰𐑗𐑸𐑡!"
 	prompt
 
 _DisabledNoMoreText::
 	text "<USER><POS>"
-	line "disabled no more!"
+	line "𐑛𐑦𐑕𐑱𐑚𐑩𐑤𐑛 𐑯𐑴 𐑥𐑹!"
 	prompt
 
 _IsConfusedText::
 	text "<USER>"
-	line "is confused!"
+	line "𐑦𐑟 𐑒𐑩𐑯𐑓𐑿𐑟𐑛!"
 	prompt
 
 _HurtItselfText::
-	text "It hurt itself in"
-	line "its confusion!"
+	text "𐑦𐑑 𐑣𐑻𐑑 𐑦𐑑𐑕𐑧𐑤𐑓 𐑦𐑯 𐑦𐑑𐑕"
+	line "𐑒𐑩𐑯𐑓𐑿𐑠𐑩𐑯!"
 	prompt
 
 _ConfusedNoMoreText::
 	text "<USER><POS>"
-	line "confused no more!"
+	line "𐑒𐑩𐑯𐑓𐑿𐑟𐑛 𐑯𐑴 𐑥𐑹!"
 	prompt
 
 _SavingEnergyText::
 	text "<USER>"
-	line "is saving energy!"
+	line "𐑦𐑟 𐑕𐑱𐑝𐑦𐑙 𐑧𐑯𐑼𐑡𐑦!"
 	prompt
 
 _UnleashedEnergyText::
 	text "<USER>"
-	line "unleashed energy!"
+	line "𐑳𐑯𐑤𐑰𐑖𐑑 𐑧𐑯𐑼𐑡𐑦!"
 	prompt
 
 _ThrashingAboutText::
 	text "<USER><POS>"
-	line "thrashing about!"
+	line "𐑔𐑮𐑨𐑖𐑦𐑙 𐑩𐑚𐑬𐑑!"
 	done
 
 _AttackContinuesText::
 	text "<USER><POS>"
-	line "attack continues!"
+	line "𐑩𐑑𐑨𐑒 𐑒𐑩𐑯𐑑𐑦𐑯𐑿𐑟!"
 	done
 
 _CantMoveText::
 	text "<USER>"
-	line "can't move!"
+	line "𐑒𐑭𐑯𐑑 𐑥𐑵𐑝!"
 	prompt
 
 _MoveIsDisabledText::
 	text "<USER><POS>"
 	line "@"
 	text_ram wNameBuffer
-	text " is"
-	cont "disabled!"
+	text " 𐑦𐑟"
+	cont "𐑛𐑦𐑕𐑱𐑚𐑩𐑤𐑛!"
 	prompt
 
 _MonName1Text::
@@ -1079,16 +1076,16 @@ _MonName1Text::
 
 _Used1Text::
 	text_start
-	line "used @"
+	line "𐑿𐑟𐑛 @"
 	text_end
 
 _Used2Text::
 	text_start
-	line "used @"
+	line "𐑿𐑟𐑛 @"
 	text_end
 
 _InsteadText::
-	text "instead,"
+	text "𐑦𐑯𐑕𐑑𐑧𐑛,"
 	cont "@"
 	text_end
 
@@ -1118,144 +1115,142 @@ _ExclamationPoint5Text::
 
 _AttackMissedText::
 	text "<USER><POS>"
-	line "attack missed!"
+	line "𐑩𐑑𐑨𐑒 𐑥𐑦𐑕𐑑!"
 	prompt
 
 _KeptGoingAndCrashedText::
 	text "<USER>"
-	line "kept going and"
-	cont "crashed!"
+	line "𐑒𐑧𐑐𐑑 𐑜𐑴𐑦𐑙 𐑯 𐑒𐑮𐑨𐑖𐑑!"
 	prompt
 
 _UnaffectedText::
 	text "<TARGET><POS>"
-	line "unaffected!"
+	line "𐑳𐑯𐑩𐑓𐑧𐑒𐑑𐑩𐑛!"
 	prompt
 
 _DoesntAffectMonText::
-	text "It doesn't affect"
+	text "𐑦𐑑 𐑛𐑳𐑟𐑩𐑯𐑑 𐑩𐑓𐑧𐑒𐑑"
 	line "<TARGET>!"
 	prompt
 
 _CriticalHitText::
-	text "Critical hit!"
+	text "𐑒𐑮𐑦𐑑𐑦𐑒𐑩𐑤 𐑣𐑦𐑑!"
 	prompt
 
 _OHKOText::
-	text "One-hit KO!"
+	text "𐑢𐑳𐑯-𐑣𐑦𐑑 𐑒𐑱𐑴!"
 	prompt
 
 _LoafingAroundText::
 	text_ram wBattleMonNick
-	text " is"
-	line "loafing around."
+	text " 𐑦𐑟"
+	line "𐑤𐑴𐑓𐑦𐑙 𐑼𐑬𐑯𐑛."
 	prompt
 
 _BeganToNapText::
 	text_ram wBattleMonNick
-	text " began"
-	line "to nap!"
+	text " 𐑚𐑦𐑜𐑨𐑯"
+	line "𐑑 𐑯𐑨𐑐!"
 	prompt
 
 _WontObeyText::
 	text_ram wBattleMonNick
-	text " won't"
-	line "obey!"
+	text " 𐑢𐑴𐑯𐑑"
+	line "𐑩𐑚𐑱!"
 	prompt
 
 _TurnedAwayText::
 	text_ram wBattleMonNick
-	text " turned"
-	line "away!"
+	text " 𐑑𐑻𐑯𐑛"
+	line "𐑩𐑢𐑱!"
 	prompt
 
 _IgnoredOrdersText::
 	text_ram wBattleMonNick
 	text_start
-	line "ignored orders!"
+	line "𐑦𐑜𐑯𐑹𐑛 𐑹𐑛𐑼𐑟!"
 	prompt
 
 _SubstituteTookDamageText::
-	text "The SUBSTITUTE"
-	line "took damage for"
+	text "𐑞 𐑕𐑳𐑚𐑕𐑑𐑦𐑑𐑿𐑑 𐑑𐑫𐑒"
+	line "𐑛𐑨𐑥𐑦𐑡 𐑓"
 	cont "<TARGET>!"
 	prompt
 
 _SubstituteBrokeText::
 	text "<TARGET><POS>"
-	line "SUBSTITUTE broke!"
+	line "𐑕𐑳𐑚𐑕𐑑𐑦𐑑𐑿𐑑 𐑚𐑮𐑴𐑒!"
 	prompt
 
 _BuildingRageText::
 	text "<USER><POS>"
-	line "RAGE is building!"
+	line "𐑮𐑱𐑡 𐑦𐑟 𐑚𐑦𐑤𐑛𐑦𐑙!"
 	prompt
 
 _MirrorMoveFailedText::
-	text "The MIRROR MOVE"
-	next "failed!"
+	text "𐑞 𐑥𐑦𐑮𐑼 𐑥𐑵𐑝 𐑓𐑱𐑤𐑛!"
 	prompt
 
 _HitXTimesText::
-	text "Hit @"
+	text "𐑣𐑦𐑑 @"
 	text_decimal wEnemyNumHits, 1, 1
-	text " times!"
+	text " 𐑑𐑲𐑥𐑟!"
 	prompt
 
 _GainedText::
 	text_ram wNameBuffer
-	text " gained"
+	text " 𐑜𐑱𐑯𐑛"
 	line "@"
 	text_end
 
 _WithExpAllText::
-	text "with EXP.ALL,"
+	text "𐑢𐑦𐑞 «𐑧𐑒𐑕𐑐𐑰.𐑷𐑤»,"
 	cont "@"
 	text_end
 
 _BoostedText::
-	text "a boosted"
+	text "𐑩 𐑚𐑵𐑕𐑑𐑩𐑛"
 	cont "@"
 	text_end
 
 _ExpPointsText::
 	text_decimal wExpAmountGained, 2, 4
-	text " EXP. Points!"
+	text " 𐑧𐑒𐑕𐑐. 𐑐𐑶𐑯𐑑𐑕!"
 	prompt
 
 _GrewLevelText::
 	text_ram wNameBuffer
-	text " grew"
-	line "to level @"
+	text " 𐑜𐑮𐑵"
+	line "𐑑 𐑤𐑧𐑝𐑩𐑤 @"
 	text_decimal wCurEnemyLevel, 1, 3
 	text "!@"
 	text_end
 
 _WildMonAppearedText::
-	text "Wild @"
+	text "𐑢𐑲𐑤𐑛 @"
 	text_ram wEnemyMonNick
 	text_start
-	line "appeared!"
+	line "𐑩𐑐𐑽𐑛!"
 	prompt
 
 _HookedMonAttackedText::
-	text "The hooked"
+	text "𐑞 𐑣𐑫𐑒𐑑"
 	line "@"
 	text_ram wEnemyMonNick
 	text_start
-	cont "attacked!"
+	cont "𐑩𐑑𐑨𐑒𐑑!"
 	prompt
 
 _EnemyAppearedText::
 	text_ram wEnemyMonNick
 	text_start
-	line "appeared!"
+	line "𐑩𐑐𐑽𐑛!"
 	prompt
 
 _TrainerWantsToFightText::
 	text_ram wTrainerName
-	text " wants"
-	line "to fight!"
+	text " 𐑢𐑪𐑯𐑑𐑕"
+	line "𐑑 𐑓𐑲𐑑!"
 	prompt
 
 _UnveiledGhostText::
@@ -1270,20 +1265,20 @@ _GhostCantBeIDdText::
 	prompt
 
 _GoText::
-	text "Go! @"
+	text "𐑜𐑴! @"
 	text_end
 
 _DoItText::
-	text "Do it! @"
+	text "𐑛𐑵 𐑦𐑑! @"
 	text_end
 
 _GetmText::
-	text "Get'm! @"
+	text "𐑜𐑧𐑑𐑩𐑥! @"         ; the “get’m” probably needs to be max 5 letters
 	text_end
 
 _EnemysWeakText::
 	text "The enemy's weak!"
-	line "Get'm! @"
+	line "𐑜𐑧𐑑𐑩𐑥! @"         ; the “get’m” probably needs to be max 5 letters
 	text_end
 
 _PlayerMon1Text::
@@ -1297,30 +1292,29 @@ _PlayerMon2Text::
 	text_end
 
 _EnoughText::
-	text "enough!@"
+	text "𐑦𐑯𐑳𐑓!@"
 	text_end
 
 _OKExclamationText::
-	text "OK!@"
+	text "𐑴𐑒𐑱!@"
 	text_end
 
 _GoodText::
-	text "good!@"
+	text "𐑜𐑫𐑛!@"
 	text_end
 
 _ComeBackText::
 	text_start
-	line "Come back!"
+	line "𐑒𐑳𐑥 𐑚𐑨𐑒!"
 	done
 
 _SuperEffectiveText::
-	text "It's super"
-	line "effective!"
+	text "𐑦𐑑𐑕 𐑕𐑵𐑐𐑼 𐑦𐑓𐑧𐑒𐑑𐑦𐑝!"
 	prompt
 
 _NotVeryEffectiveText::
-	text "It's not very"
-	line "effective..."
+	text "𐑦𐑑𐑕 𐑯𐑪𐑑 𐑝𐑧𐑮𐑦"
+	line "𐑦𐑓𐑧𐑒𐑑𐑦𐑝..."
 	prompt
 
 _SafariZoneEatingText::
