@@ -1,46 +1,44 @@
 _MtMoonPokecenterYoungsterText::
-	text "I've 6 # BALLs"
-	line "set in my belt."
+	text "𐑲𐑝 6 # 𐑚𐑷𐑤𐑟 𐑕𐑧𐑑"
+	line "𐑦𐑯 𐑥𐑲 𐑚𐑧𐑤𐑑."
 
-	para "At most, you can"
-	line "carry 6 #MON."
+	para "𐑨𐑑 𐑥𐑴𐑕𐑑, 𐑿 𐑒𐑨𐑯"
+	line "𐑒𐑨𐑮𐑦 6 #𐑥𐑪𐑯."
 	done
 
 _MtMoonPokecenterGentlemanText::
-	text "TEAM ROCKET"
-	line "attacks CERULEAN"
-	cont "citizens..."
+	text "·𐑑𐑰𐑥 𐑮𐑪𐑒𐑩𐑑 𐑩𐑑𐑨𐑒𐑕"
+	line "·𐑕𐑦𐑮𐑵𐑤𐑾𐑯"
+	cont "𐑕𐑦𐑑𐑦𐑟𐑩𐑯𐑟..."
 
-	para "TEAM ROCKET is"
-	line "always in the"
-	cont "news!"
+	para "·𐑑𐑰𐑥 𐑮𐑪𐑒𐑩𐑑 𐑦𐑟"
+	line "𐑷𐑤𐑢𐑱𐑟 𐑦𐑯 𐑞 𐑯𐑿𐑟!"
 	done
 
 _MtMoonPokecenterMagikarpSalesmanIGotADealText::
-	text "MAN: Hello, there!"
-	line "Have I got a deal"
-	cont "just for you!"
+	text "𐑥𐑨𐑯: 𐑣𐑧𐑤𐑴, 𐑞𐑺! 𐑣𐑨𐑝"
+	line "𐑲 𐑜𐑪𐑑 𐑩 𐑛𐑰𐑤 𐑡𐑳𐑕𐑑"
+	cont "𐑓 𐑿!"
 
-	para "I'll let you have"
-	line "a swell MAGIKARP"
-	cont "for just ¥500!"
-	cont "What do you say?"
+	para "𐑲𐑤 𐑤𐑧𐑑 𐑿 𐑣𐑨𐑝 𐑩"
+	line "𐑕𐑢𐑧𐑤 𐑥𐑨𐑡𐑦𐑒𐑸𐑐 𐑓"
+	cont "𐑡𐑳𐑕𐑑 ¥500! 𐑢𐑪𐑑 𐑛𐑵"
+	cont "𐑿 𐑕𐑱?"
 	done
 
 _MtMoonPokecenterMagikarpSalesmanNoText::
-	text "No? I'm only"
-	line "doing this as a"
-	cont "favor to you!"
+	text "𐑯𐑴? 𐑲𐑥 𐑴𐑯𐑤𐑦 𐑛𐑵𐑦𐑙 𐑞𐑦𐑕"
+	line "𐑨𐑟 𐑩 𐑓𐑱𐑝𐑼 𐑑 𐑿!"
 	done
 
 _MtMoonPokecenterMagikarpSalesmanNoMoneyText::
-	text "You'll need more"
-	line "money than that!"
+	text "𐑿𐑤 𐑯𐑰𐑛 𐑥𐑹 𐑥𐑳𐑯𐑦 𐑞𐑨𐑯"
+	line "𐑞𐑨𐑑!"
 	done
 
 _MtMoonPokecenterMagikarpSalesmanNoRefundsText::
-	text "MAN: Well, I don't"
-	line "give refunds!"
+	text "𐑥𐑨𐑯: 𐑢𐑧𐑤, 𐑲 𐑛𐑴𐑯𐑑"
+	line "𐑜𐑦𐑝 𐑮𐑰𐑓𐑳𐑯𐑛𐑟!"
 	done
 
 _MtMoonPokecenterClipboardText::

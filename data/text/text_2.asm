@@ -189,10 +189,9 @@ _LavenderPokecenterGuyText::
 	done
 
 _MtMoonPokecenterBenchGuyText::
-	text "If you have too"
-	line "many #MON, you"
-	cont "should store them"
-	cont "via PC!"
+	text "𐑦𐑓 𐑿 𐑣𐑨𐑝 𐑑𐑵 𐑥𐑧𐑯𐑦"
+	line "#𐑥𐑪𐑯, 𐑿 𐑖𐑫𐑛"
+	cont "𐑕𐑑𐑹 𐑞𐑧𐑥 𐑝𐑲𐑩 𐑐𐑰𐑕𐑰!"
 	done
 
 _RockTunnelPokecenterGuyText::
