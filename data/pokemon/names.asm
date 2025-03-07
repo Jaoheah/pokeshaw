@@ -174,7 +174,7 @@ MonsterNames::
 	pokemon_name "𐑮𐑨𐑑𐑦𐑒𐑱𐑑"     ; RATICATE
 	pokemon_name "𐑯𐑰𐑛𐑴𐑮𐑰𐑯𐑴"    ; NIDORINO
 	pokemon_name "𐑯𐑦𐑛𐑼𐑰𐑯𐑩"     ; NIDORINA
-	pokemon_name "𐑡𐑰𐑴𐑛𐑿𐑛"      ; GEODUDE
+	pokemon_name "𐑡𐑰𐑴𐑛𐑵𐑛"      ; GEODUDE
 	pokemon_name "𐑐𐑪𐑮𐑦𐑜𐑪𐑯"     ; PORYGON
 	pokemon_name "𐑺𐑴𐑛𐑨𐑒𐑑𐑤"     ; AERODACTYL
 	pokemon_name "𐑥𐑦𐑕𐑦𐑙 𐑯𐑳𐑥𐑚𐑼" ; MISSINGNO.
