@@ -6,7 +6,7 @@ import re
 import sys
 import tempfile
 
-LI_RE = re.compile(r'^(?P<prefix>\s*li\s+")(?P<name>[^@"]*)'
+LI_RE = re.compile(r'^(?P<prefix>\s*(?:db|next|li)\s+")(?P<name>[^@"]*)'
                    r'(?P<postfix>@?")\s*$')
 
 with tempfile.TemporaryDirectory() as dir:
