@@ -1,119 +1,112 @@
 _MtMoon1FHikerBattleText::
-	text "WHOA! You shocked"
-	line "me! Oh, you're"
-	cont "just a kid!"
+	text "𐑢𐑴! 𐑿 𐑖𐑪𐑒𐑑 𐑥𐑰! 𐑴,"
+	line "𐑿𐑼 𐑡𐑳𐑕𐑑 𐑩 𐑒𐑦𐑛!"
 	done
 
 _MtMoon1FHikerEndBattleText::
-	text "Wow!"
-	line "Shocked again!"
+	text "𐑢𐑬!"
+	line "𐑖𐑪𐑒𐑑 𐑩𐑜𐑧𐑯!"
 	prompt
 
 _MtMoon1FHikerAfterBattleText::
-	text "Kids like you"
-	line "shouldn't be"
-	cont "here!"
+	text "𐑒𐑦𐑛𐑟 𐑤𐑲𐑒 𐑿 𐑖𐑫𐑛𐑩𐑯𐑑"
+	line "𐑚𐑰 𐑣𐑽!"
 	done
 
 _MtMoon1FYoungster1BattleText::
-	text "Did you come to"
-	line "explore too?"
+	text "𐑛𐑦𐑛 𐑿 𐑒𐑳𐑥 𐑑 𐑦𐑒𐑕𐑐𐑤𐑹"
+	line "𐑑𐑵?"
 	done
 
 _MtMoon1FYoungster1EndBattleText::
-	text "Losing"
-	line "stinks!"
+	text "𐑤𐑵𐑟𐑦𐑙"
+	line "𐑕𐑑𐑦𐑙𐑒𐑕!"
 	prompt
 
 _MtMoon1FYoungster1AfterBattleText::
-	text "I came down here"
-	line "to show off to"
-	cont "girls."
+	text "𐑲 𐑒𐑱𐑥 𐑛𐑬𐑯 𐑣𐑽 𐑑 𐑖𐑴"
+	line "𐑪𐑓 𐑑 𐑜𐑻𐑤𐑟."
 	done
 
 _MtMoon1FCooltrainerF1BattleText::
-	text "Wow! It's way"
-	line "bigger in here"
-	cont "than I thought!"
+	text "𐑢𐑬! 𐑦𐑑𐑕 𐑢𐑱 𐑚𐑦𐑜𐑼 𐑦𐑯 𐑣𐑽"
+	line "𐑞𐑨𐑯 𐑲 𐑔𐑷𐑑!"
 	done
 
 _MtMoon1FCooltrainerF1EndBattleText::
-	text "Oh!"
-	line "I lost it!"
+	text "𐑴!"
+	line "𐑲 𐑤𐑪𐑕𐑑 𐑦𐑑!"
 	prompt
 
 _MtMoon1FCooltrainerF1AfterBattleText::
-	text "How do you get"
-	line "out of here?"
+	text "𐑣𐑬 𐑛𐑵 𐑿 𐑜𐑧𐑑 𐑬𐑑 𐑝"
+	line "𐑣𐑽?"
 	done
 
 _MtMoon1FSuperNerdBattleText::
-	text "What! Don't sneak"
-	line "up on me!"
+	text "𐑢𐑪𐑑! 𐑛𐑴𐑯𐑑 𐑕𐑯𐑰𐑒 𐑳𐑐"
+	line "𐑪𐑯 𐑥𐑰!"
 	done
 
 _MtMoon1FSuperNerdEndBattleText::
-	text "My"
-	line "#MON won't do!"
+	text "𐑥𐑲"
+	line "#𐑥𐑪𐑯 𐑢𐑴𐑯𐑑 𐑛𐑵!"
 	prompt
 
 _MtMoon1FSuperNerdAfterBattleText::
-	text "I have to find"
-	line "stronger #MON."
+	text "𐑲 𐑣𐑨𐑓 𐑑 𐑓𐑲𐑯𐑛"
+	line "𐑕𐑑𐑮𐑪𐑙𐑜𐑼 #𐑥𐑪𐑯."
 	done
 
 _MtMoon1FCooltrainerF2BattleText::
-	text "What? I'm waiting"
-	line "for my friends to"
-	cont "find me here."
+	text "𐑢𐑪𐑑? 𐑲𐑥 𐑢𐑱𐑑𐑦𐑙 𐑓 𐑥𐑲"
+	line "𐑓𐑮𐑧𐑯𐑛𐑟 𐑑 𐑓𐑲𐑯𐑛 𐑥𐑰"
+	cont "𐑣𐑽."
 	done
 
 _MtMoon1FCooltrainerF2EndBattleText::
-	text "I lost?"
+	text "𐑲 𐑤𐑪𐑕𐑑?"
 	prompt
 
 _MtMoon1FCooltrainerF2AfterBattleText::
-	text "I heard there are"
-	line "some very rare"
-	cont "fossils here."
+	text "𐑲 𐑣𐑻𐑛 𐑞𐑺 𐑸 𐑕𐑳𐑥"
+	line "𐑝𐑧𐑮𐑦 𐑮𐑺 𐑓𐑪𐑕𐑩𐑤𐑟 𐑣𐑽."
 	done
 
 _MtMoon1FYoungster2BattleText::
-	text "Suspicious men"
-	line "are in the cave."
-	cont "What about you?"
+	text "𐑕𐑩𐑕𐑐𐑦𐑖𐑩𐑕 𐑥𐑧𐑯 𐑸 𐑦𐑯 𐑞"
+	line "𐑒𐑱𐑝. 𐑢𐑪𐑑 𐑩𐑚𐑬𐑑 𐑿?"
 	done
 
 _MtMoon1FYoungster2EndBattleText::
-	text "You"
-	line "got me!"
+	text "𐑿"
+	line "𐑜𐑪𐑑 𐑥𐑰!"
 	prompt
 
 _MtMoon1FYoungster2AfterBattleText::
-	text "I saw them! I'm"
-	line "sure they're from"
-	cont "TEAM ROCKET!"
+	text "𐑲 𐑕𐑷 𐑞𐑧𐑥! 𐑲𐑥 𐑖𐑫𐑼"
+	line "𐑞𐑱𐑼 𐑓𐑮𐑪𐑥 ·𐑑𐑰𐑥"
+	cont "𐑮𐑪𐑒𐑩𐑑!"
 	done
 
 _MtMoon1FYoungster3BattleText::
-	text "Go through this"
-	line "cave to get to"
-	cont "CERULEAN CITY!"
+	text "𐑜𐑴 𐑔𐑮𐑵 𐑞𐑦𐑕 𐑒𐑱𐑝 𐑑"
+	line "𐑜𐑧𐑑 𐑑 ·𐑕𐑦𐑮𐑵𐑤𐑾𐑯"
+	cont "𐑕𐑦𐑑𐑦!"
 	done
 
 _MtMoon1FYoungster3EndBattleText::
-	text "I"
-	line "lost."
+	text "𐑲"
+	line "𐑤𐑪𐑕𐑑."
 	prompt
 
 _MtMoon1FYoungster3AfterBattleText::
-	text "ZUBAT is tough!"
-	line "But, it can be"
-	cont "useful if you"
-	cont "catch one."
+	text "𐑟𐑵𐑚𐑨𐑑 𐑦𐑟 𐑑𐑳𐑓! 𐑚𐑳𐑑,"
+	line "𐑦𐑑 𐑒𐑨𐑯 𐑚𐑰 𐑿𐑕𐑓𐑩𐑤 𐑦𐑓"
+	cont "𐑿 𐑒𐑨𐑗 𐑢𐑳𐑯."
 	done
 
 _MtMoon1FBewareZubatSign::
-	text "Beware! ZUBAT is"
-	line "a blood sucker!"
+	text "𐑚𐑦𐑢𐑺! 𐑟𐑵𐑚𐑨𐑑 𐑦𐑟 𐑩"
+	line "𐑚𐑤𐑳𐑛 𐑕𐑳𐑒𐑼!"
 	done
