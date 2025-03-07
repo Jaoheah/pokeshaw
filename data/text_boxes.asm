@@ -67,7 +67,7 @@ JapaneseMainMenuText:
 
 BattleMenuText:
 	db   "𐑓𐑲𐑑   <PK><MN>"
-	next "𐑲𐑑𐑧𐑥  𐑮𐑳𐑯@"
+	next "𐑲𐑑𐑩𐑥  𐑮𐑳𐑯@"
 
 SafariZoneBattleMenuText:
 	db   "BALL×       BAIT"
